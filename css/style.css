@@ -65,13 +65,20 @@ html {
 overflow-y : scroll;
 background : rgb(255,255,255) /* url(../img/tmp/grid.png) repeat-y 50% 0 */; }
 
-body { 
+body {
+	margin : 0 auto;
+	padding : 0 0;
+	font : 100%/1.4 "museo-sans-1","museo-sans-2", sans-serif;
+	font-weight: 100;
+	color : rgb(40,40,40); 
+	background-color : transparent;
+}
+
+#page { 
 margin : 0 auto;
-padding : 24px 0;
+padding : 0 0;
 width : 90% /* 252px */;
-font : 100%/1.4 Cambria, Georgia, Times, "Times New Roman";
-color : rgb(40,40,40); 
-background-color : transparent; }
+}
 
 /* 2.HEADINGS */
 
@@ -80,31 +87,20 @@ h2,
 h3, 
 h4, 
 h5, 
-h6 { font-family : "Helvetica Neue", Helvetica, Arial; font-weight : bold; }
+h6 { font-family : "museo-slab-1","museo-slab-2", "Helvetica Neue", Helvetica, Arial; font-weight : 700; }
 
-h1 { margin-bottom : .75em; font-size : 3em; /* 48 / 16 = 3 */ line-height : 1.2; }
+h1 { margin-bottom : .5em; font-size : 3em; /* 48 / 16 = 3 */ line-height : 1.2; font-weight: 900; text-align: center; }
+h1:before { content: "\2731"; display: block; font-size: 3em; margin-top: 0; text-align: center; }
 
-h2 { 
-margin-bottom : .75em;
-font-size : 2em; /* 36 / 16 = 2 */
-line-height : 1.2; }
+h2 { margin-bottom : .75em; font-size : 2em; /* 36 / 16 = 2 */ line-height : 1.2; text-align: center; }
 
-h3 { 
-margin-bottom : 1em;
-font-size : 1.5em; /* 24 / 16 = 1.5 */
-line-height : 1.3; }
+h3 { margin-bottom : 1em; font-size : 1.5em; /* 24 / 16 = 1.5 */ line-height : 1.3; }
 
-h4 { 
-margin-bottom : 1.25em;
-font-size : 1.25em; /* 20 / 16 = 1.25 */
-line-height : 1.25; }
+h4 { font-family: "museo-sans-1","museo-sans-2", sans-serif; margin-bottom : 0.25em; font-size : 1.25em; /* 20 / 16 = 1.25 */ line-height : 1.25; font-weight: 500; }
 
-h5 { 
-margin-bottom : 1.5em;
-font-size : 1em; /* 16 / 16 = 1 */ }
+h5 { margin-bottom : 1.5em; font-size : 1em; /* 16 / 16 = 1 */ }
 
-h6 { 
-font-size : 1em; /* 16 / 16 = 1 */ }
+h6 { font-size : 1em; /* 16 / 16 = 1 */ }
 
 /* 3.TYPOGRAPHY */
 
@@ -131,6 +127,10 @@ li ul,
 li ol { 
 margin : 0;
 font-size : 1em; /* 16 / 16 = 1 */ }
+
+section { border-top: 2px solid black; padding-top: 1em; }
+
+section ul, section ol { list-style: none; }
 
 dl, 
 dd { 
@@ -421,7 +421,11 @@ page-break-after : avoid; }
 @media only screen and (min-width: 480px) {
 
 /* 1.ROOT */
+body { font-size: 1.05em; }
 /* 2.HEADINGS */
+h1 { margin-top: 0.5em; text-align: left; }
+h1:before { float: right; font-size: 2em; position: relative; top: -0.28em; text-align: right; margin-bottom: -0.5em; }
+h2 { text-align: left; }
 /* 3.TYPOGRAPHY */
 /* 4.LINKS */
 /* 5.FIGURES & IMAGES */
@@ -444,9 +448,9 @@ page-break-after : avoid; }
 @media only screen and (min-width: 768px) {
 
 /* 1.ROOT */
-
-/* 1.ROOT */
+body { font-size: 1.1em; }
 /* 2.HEADINGS */
+h1 { font-size: 5em; margin-bottom: 0.25em; }
 /* 3.TYPOGRAPHY */
 /* 4.LINKS */
 /* 5.FIGURES & IMAGES */
@@ -455,6 +459,7 @@ page-break-after : avoid; }
 /* 8.BANNER */
 /* 9.NAVIGATION */
 /* 10.CONTENT */
+#skills { float: right; width: 30%; margin-left: 4em; }
 /* 11.MAIN */
 /* 12.COMPLIMENTARY */
 /* 13.CONTENTINFO */
@@ -469,6 +474,7 @@ page-break-after : avoid; }
 @media only screen and (min-width: 992px) {
 
 /* 1.ROOT */
+#page { width: 890px; }
 /* 2.HEADINGS */
 /* 3.TYPOGRAPHY */
 /* 4.LINKS */
