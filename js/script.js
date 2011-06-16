@@ -7,3 +7,6 @@ viewportmeta.content = 'width=device-width, minimum-scale=0.25, maximum-scale=1.
 }, false);
 }
 }
+
+$(function() {
+});
