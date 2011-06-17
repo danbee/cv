@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 
 <!-- 
-320 and Up boilerplate extension
-Author: Andy Clarke
-Version: 0.9b
-URL: http://stuffandnonsense.co.uk/projects/320andup 
+Dan Barber's CV
+Author: Dan Barber
+URL: http://pixelhum.com/cv
 -->
 
 <!--[if IEMobile 7 ]><html class="no-js iem7" manifest="default.appcache?v=1"><![endif]-->
@@ -38,21 +37,8 @@ URL: http://stuffandnonsense.co.uk/projects/320andup
 <script type="text/javascript" src="http://use.typekit.com/ewi2mjz.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-<!-- For iPhone 4 -->
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/h/apple-touch-icon.png">
-<!-- For iPad 1-->
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/m/apple-touch-icon.png">
-<!-- For iPhone 3G, iPod Touch and Android -->
-<link rel="apple-touch-icon-precomposed" href="img/l/apple-touch-icon-precomposed.png">
-<!-- For Nokia -->
-<link rel="shortcut icon" href="img/l/apple-touch-icon.png">
 <!-- For everything else -->
 <link rel="shortcut icon" href="/favicon.ico">
-
-<!--iOS. Delete if not required -->
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<link rel="apple-touch-startup-image" href="img/splash.png">
 
 <!--Microsoft. Delete if not required -->
 <meta http-equiv="cleartype" content="on">
@@ -64,57 +50,62 @@ URL: http://stuffandnonsense.co.uk/projects/320andup
 
 <body class="clearfix">
   
-  <div id="page">
-
-    <header role="banner" class="clearfix">
+  <header role="banner" class="clearfix">
+    <div class="container">
       <h1 id="main_heading">Dan Barber</h1>
       <h2>Web Designer &amp;&nbsp;Developer</h2>
-    </header>
+    </div>
+  </header>
 
-    <div class="content clearfix">
+  <div class="content clearfix">
 
     <div role="main">
-      <div class="clearfix">
+      <div class="container clearfix">
         <section id="profile">
           <h3>Profile</h3>
-          <p>I have 11 years of experience building web sites and web applications, from small simple services to large enterprise level systems. I focus on simple, usable interfaces and prefer to work by prototyping ideas.</p>
+          <p>I have 11 years of experience building web sites and web applications, from small simple websites and services to large enterprise level systems. I focus on simple, usable interfaces and prefer to work by prototyping ideas.</p>
         </section>
-  
+
         <section id="skills">
           <h3>Skills</h3>
-    
+  
           <ul>
             <li>
-              <h4>HTML/CSS</h4>
-              <p>Excellent knowledge of standards and browser engines.</p>
+              <h4>Web Technologies</h4>
+              <ul>
+                <li>HTML5/CSS3</li>
+                <li>Javascript/jQuery</li>
+                <li>Ruby on Rails</li>
+                <li>PHP</li>
+              </ul>
             </li>
             <li>
-              <h4>Ruby on Rails</h4>
-              <p>Intermediate level.</p>
+              <h4>Databases</h4>
+              <ul>
+                <li>SQL</li>
+                <li>PostgreSQL</li>
+                <li>MySQL</li>
+                <li>SQLite3</li>
+              </ul>
             </li>
             <li>
-              <h4>PHP</h4>
-              <p>Expert level.</p>
-            </li>
-            <li>
-              <h4>SQL/&shy;MySQL/&shy;PostgreSQL</h4>
-              <p>Excellent knowledge of SQL and configuration.</p>
-            </li>
-            <li>
-              <h4>Javascript/jQuery</h4>
-              <p>Sound working knowledge</p>
-            </li>
-            <li>
-              <h4>Typography</h4>
-              <p>Good working knowledge.</p>
-            </li>
-            <li>
-              <h4>Photoshop/GIMP</h4>
-              <p>Good working knowledge.</p>
+              <h4>Design</h4>
+              <ul>
+                <li>Photoshop/GIMP</li>
+                <li>Illustrator</li>
+                <li>InDesign</li>
+                <li>Typography</li>
+              </ul>
             </li>
             <li>
               <h4>Linux Servers</h4>
-              <p>Web (Apache), MySQL, PostgreSQL, DNS, Samba</p>
+              <ul>
+                <li>Web (Apache)</li>
+                <li>MySQL</li>
+                <li>PostgreSQL</li>
+                <li>DNS</li>
+                <li>Samba</li>
+              </ul>
             </li>
             <li>
               <h4>Networking</h4>
@@ -122,93 +113,107 @@ URL: http://stuffandnonsense.co.uk/projects/320andup
             </li>
           </ul>
         </section>
-  
+
         <section id="experience">
           <h3>Experience</h3>
-    
+  
           <ul>
             <li>
+              <div>
               <h4>Abiquo</h4>
-              <p>June 2010&ndash;Present</p>
-              <p>[to be written]</p>
+              <p class="period"><time datetime="2010-06-04">June 2010</time>&ndash;<time>Present</time></p>
+              <p>Updating and maintaining Abiquo&rsquo;s websites, written in both PHP and Ruby on Rails. This includes the virtual image exchange site Thunderflash (<a href="http://thunderflash.com">thunderflash.com</a>) which I rebuilt on Rails 3.</p>
             </li>
             <li>
               <h4>Deep Blue Sound</h4>
-              <p>Aug 2008&ndash;June 2010</p>
+              <p class="period"><time datetime="2008-08-26">Aug 2008</time>&ndash;<time datetime="2010-06-04">June 2010</time></p>
               <p>Administering and augmenting the existing web systems including Moodle, SugarCRM and others. Deputising for the System Administrator.</p>
             </li>
             <li>
               <h4>Footwork Solutions</h4>
-              <p>Nov 2002&ndash;Aug 2008</p>
+              <p class="period"><time datetime="2002-11-01">Nov 2002</time>&ndash;<time datetime="2008-08-26">Aug 2008</time></p>
               <p><a href="http://footworksolutions.co.uk">footworksolutions.co.uk</a><br />I was a lead developer and designer on the Halo care co-ordination system, including training and documentation and support. I was also the System Administrator for both the local network and remote server farm.</p>
             </li>
             <li>
               <h4>Granite Internet</h4>
-              <p>2000&ndash;2002</p>
+              <p class="period"><time>2000</time>&ndash;<time>2002</time></p>
               <p>Designed and developed and maintained several property company websites based on a single code base. Setup Windows, Linux and FreeBSD servers.</p>
             </li>
             <li>
               <h4>North Devon Journal</h4>
-              <p>1998&ndash;2000</p>
+              <p class="period"><time>1998</time>&ndash;<time>2000</time></p>
               <p>Set advertisements using QuarkXpress and was responsible for laying out the classified pages. Developed a love for typography.</p>
             </li>
           </ul>
         </section>
       </div>
-      
-      <section id="portfolio">
-        <h3>Portfolio</h3>
     
-        <ul>
-          <li>
-            <h4>NeoMPC</h4>
-            <p><a href="http://pixelhum.com/neompc">pixelhum.com/neompc</a></p>
-            <p>Web based MPD client. Design and execution. Built on PHP and jQuery and uses mpd.class.php.</p>
-          </li>
-          <li>
-            <h4>Footwork Solutions</h4>
-            <p><a href="http://footworksolutions.co.uk">footworksolutions.co.uk</a></p>
-            <p>Company logo and site design. I built the HTML for the Drupal template.</p>
-          </li>
-          <li>
-            <h4>Halo</h4>
-            <p>haloteam.com</p>
-            <p>Hosted care co-ordination system for drug treatment agencies. Design, initial implementation and ongoing development of key modules.</p>
-          </li>
-          <li>
-            <h4>Dan Barber Photo</h4>
-            <p><a href="http://danbarberphoto.com">danbarberphoto.com</a></p>
-            <p>My own photography portfolio site. Designed and implemented the whole site using Ruby on Rails and jQuery, including backend admin pages.</p>
-          </li>
-          <li>
-            <h4>Dan &amp; Katie</h4>
-            <p><a href="http://wedding.coweyes.co.uk">wedding.coweyes.co.uk</a></p>
-            <p>My own wedding photo site. Design and implementation of theme for ZenPhoto.</p>
-          </li>
-        </ul>
-      </section>
+      <div class="container clearfix">
+        <section id="portfolio">
+          <h3>Portfolio</h3>
   
-      <section id="interests">
-        <h3>Interests</h3>
-    
-        <ul>
-          <li>Drumming</li>
-          <li>Music</li>
-          <li>Sound Engineering &amp; Recording</li>
-          <li>Photography</li>
-          <li>Cycling</li>
-        </ul>
-      </section>
+          <ul>
+            <li>
+              <h4>NeoMPC</h4>
+              <p><a href="http://pixelhum.com/neompc">pixelhum.com/neompc</a></p>
+              <p>Web based MPD client. Design and execution. Built on PHP and jQuery and uses mpd.class.php.</p>
+            </li>
+            <li>
+              <h4>Footwork Solutions</h4>
+              <p><a href="http://footworksolutions.co.uk">footworksolutions.co.uk</a></p>
+              <p>Company logo and site design. I built the HTML for the Drupal template.</p>
+            </li>
+            <li>
+              <h4>Halo</h4>
+              <p>haloteam.com</p>
+              <p>Hosted care co-ordination system for drug treatment agencies. Design, initial implementation and ongoing development of key modules.</p>
+            </li>
+            <li>
+              <h4>Dan Barber Photo</h4>
+              <p><a href="http://danbarberphoto.com">danbarberphoto.com</a></p>
+              <p>My own photography portfolio site. Designed and implemented the whole site using Ruby on Rails and jQuery, including backend admin pages.</p>
+            </li>
+            <li>
+              <h4>Dan &amp; Katie</h4>
+              <p><a href="http://wedding.coweyes.co.uk">wedding.coweyes.co.uk</a></p>
+              <p>My own wedding photo site. Design and implementation of theme for ZenPhoto.</p>
+            </li>
+          </ul>
+        </section>
+
+        <section id="interests">
+          <h3>Interests</h3>
+  
+          <ul>
+            <li>Drumming</li>
+            <li>Music</li>
+            <li>Sound Engineering &amp; Recording</li>
+            <li>Photography</li>
+            <li>Cycling</li>
+          </ul>
+        </section>
+        
+        <section id="contact" class="vcard">
+          <h3>Contact</h3>
+          <p class="fn n"><span class="given-name">Dan</span> <span class="family-name">Barber</span></p>
+          <p class="adr"><span class="street-address">41D Longacre</span><br />
+            <span class="locality">Plymouth</span><br />
+            <span class="postal-code">PL7 4RQ</span><br />
+            <span class="country-name">United Kingdom</span></p>
+          <p><a class="email" href="mailto:dan.barber@pixelhum.com">dan.barber@pixelhum.com</a></p>
+          <p class="tel">+44 (0) 1752 546981</p>
+          <p><a class="url" href="http://pixelhum.com">http://pixelhum.com</a></p>
+        </section>
+      </div>
     </div>
 
     <div role="complementary">
     </div>
 
-    </div>
-
-    <footer role="contentinfo" class="clearfix">
-    </footer>
   </div>
+
+  <footer role="contentinfo" class="clearfix">
+  </footer>
 
 <!-- mathiasbynens.be/notes/async-analytics-snippet Change UA-XXXXX-X to be your site's ID -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>

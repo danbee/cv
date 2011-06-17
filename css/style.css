@@ -61,24 +61,12 @@ cursor: help; }
 
 /* 1.ROOT */
 
-html {
-overflow-y: scroll;
-background: #F9F5EB }
+html { overflow-y: scroll; background: #F9F5EB }
 
-body {
-	margin: 0 auto;
-	padding: 0 0;
-	font: 100%/1.4 "museo-sans-1","museo-sans-2", sans-serif;
-	font-weight: 100;
-	color: rgb(40,40,40); 
-	background-color: transparent;
-}
+body { margin: 0 auto; padding: 0 0; font: 100%/1.4 "museo-sans-1","museo-sans-2", sans-serif;
+       font-weight: 100; color: rgb(40,40,40); background-color: transparent; }
 
-#page { 
-margin: 0 auto;
-padding: 0 0;
-width: 90% /* 252px */;
-}
+.container { margin: 0 auto; padding: 0 0; width: 90% /* 252px */; }
 
 /* 2.HEADINGS */
 
@@ -87,14 +75,17 @@ h2,
 h3, 
 h4, 
 h5, 
-h6 { font-family: "museo-slab-1","museo-slab-2", "Helvetica Neue", Helvetica, Arial, serif; font-weight: 700;
-		 text-shadow: 1px 1px 2px white;}
+h6 { font-family: "museo-slab-1","museo-slab-2", "Helvetica Neue", Helvetica, Arial, serif; font-weight: black;
+     text-shadow: 1px 1px 1px white;}
 
-h1 { margin-bottom: .1em; font-size: 3em; /* 48 / 16 = 3 */ line-height: 1.2; font-weight: 900; text-align: center; width: 100%; }
+h1 { margin-top: 0; margin-bottom: .1em; font-size: 3em; /* 48 / 16 = 3 */ line-height: 1.2; font-weight: 900; text-align: center; width: 100%; }
 h1:before { content: ''; display: block; height: 130px; font-size: 3em; margin-top: 0; text-align: center; 
-						background: url(../img/m/danbarberlogo.png) center center no-repeat; background-size: 95px; }
+            background: url(../img/l/danbarberlogo.png) center center no-repeat; background-size: 95px; }
 
-h2 { margin-bottom: .75em; font-size: 1.7em; /* 36 / 16 = 2 */ line-height: 1.2; text-align: center; color: #464646; }
+/* Hide the logomark in ie7/8 as it just doesn't work correctly. It's not essential. */
+.ie8 h1:before, .ie7 h1:before { border: 1px solid red; display: none; }
+
+h2 { margin-bottom: .75em; font-size: 1.7em; /* 36 / 16 = 2 */ line-height: 1.2; text-align: center; }
 
 h3 { text-transform: uppercase; margin-bottom: 1em; font-size: 1.4em; /* 24 / 16 = 1.5 */ line-height: 1.3; }
 
@@ -106,144 +97,97 @@ h6 { font-size: 1em; /* 16 / 16 = 1 */ }
 
 /* 3.TYPOGRAPHY */
 
+.period {
+  font-style: italic;
+}
+
 p, 
 ol, 
 ul, 
 dl, 
-address { 
-margin-bottom: 0.75em; 
-font-size: 1em; /* 16 / 16 = 1 */ }
+address { margin-bottom: 0.75em; font-size: 1em; /* 16 / 16 = 1 */ }
 
 ul, 
-ol { 
-margin: 0 0 0 -24px; 
-padding-left: 24px; }
+ol { margin: 0 0 0 -24px; padding-left: 24px; }
 
-ul { 
-list-style-type: disc; }
+ul ul { padding-left: 0; }
 
-ol { 
-list-style-type: decimal; }
+ul { list-style-type: disc; }
+
+ol { list-style-type: decimal; }
 
 li ul, 
-li ol { 
-margin: 0;
-font-size: 1em; /* 16 / 16 = 1 */ }
+li ol { margin: 0; font-size: 1em; /* 16 / 16 = 1 */ }
 
-section { border-top: 2px solid black; padding-top: 1em; margin-bottom: 2em; }
+.container>section { border-top: 2px solid #666; padding-top: 1em; margin-bottom: 2em; }
 
-section ul, section ol { list-style: none; }
+.container>section ul, .container>section ol { list-style: none; }
 
 dl, 
-dd { 
-margin-bottom: 1.5em; }
+dd { margin-bottom: 1.5em; }
 
-dt { 
-font-weight: normal; }
+dt { font-weight: normal; }
 
-blockquote  { 
-margin: 0 0 1.5em -24px; 
-padding-left: 24px; 
-border-left: 1px solid rgb(200,200,200);
-font-style: italic; }
+blockquote  { margin: 0 0 1.5em -24px; padding-left: 24px; border-left: 1px solid rgb(200,200,200); font-style: italic; }
 
 blockquote:before, 
 blockquote:after, 
 q:before, 
-q:after {
-content: '';
-content: none; }
+q:after { content: ''; content: none; }
 
 b, 
-strong	{ 
-font-weight: bold; }
+strong  { font-weight: bold; }
 
 i, 
-em { 
-font-style: italic; }
+em { font-style: italic; }
 
 sup, 
-sub { 
-position: relative;
-font-size: 75%; 
-line-height: 0; }
+sub { position: relative; font-size: 75%; line-height: 0; }
 
-sup { 
-top: -.5em; }
+sup { top: -.5em; }
 
-sub { 
-bottom: -.25em; }
+sub { bottom: -.25em; }
 
-address { 
-font-style: normal; }
+address { font-style: normal; }
 
-pre { 
-margin-bottom: 1.5em; 
-white-space: pre; 
-white-space: pre-wrap; 
-word-wrap: break-word; }
+pre { margin-bottom: 1.5em; white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
 
 pre, 
-code { 
-font: .875em 'andale mono', 'lucida console', monospace; 
-line-height: 1.5; }
+code { font: .875em 'andale mono', 'lucida console', monospace; line-height: 1.5; }
 
-small {
-font-size: 1em; /* 16 / 16 = 1 */ }
+small { font-size: 1em; /* 16 / 16 = 1 */ }
 
 /* 4.LINKS */
 
 a, 
-a:visited {
-outline: none;
-color: rgb(23,119,175);
-text-decoration: none; }
+a:visited { outline: none; color: rgb(23,119,175); text-decoration: none; }
  
-a:hover { 
-outline: none;
-color: rgb(40,40,40); 
-text-decoration: underline; }
+a:hover, 
+a:focus { outline: none; color: rgb(40,40,40); text-decoration: underline; }
  
-a:active, 
-a:focus { 
-outline: none;
-color: rgb(0,0,0); }
+a:active { outline: none; color: rgb(0,0,0); }
 
 /* 5.FIGURES & IMAGES */
 
-figure {
-margin-bottom: 1.5em; }
+figure { margin-bottom: 1.5em; }
 
 figure img,
 figure object,
-figure embed {
-margin-bottom: .75em;
-max-width: 100%; }
+figure embed { margin-bottom: .75em; max-width: 100%; }
 
-figcaption {
-display: block;
-font-weight: normal; }
+figcaption { display: block; font-weight: normal; }
 
 /* 6.TABLES */
 
-table { 
-border-collapse: collapse;
-border-spacing: 0;
-margin-bottom: 1.4em; 
-width: 100%;
-font-size: .875em; /* 14 / 16 = .875 */ }
+table { border-collapse: collapse; border-spacing: 0; margin-bottom: 1.4em; width: 100%; font-size: .875em; /* 14 / 16 = .875 */ }
 
-th { 
-font-weight: bold; }
+th { font-weight: bold; }
 
-th, td, caption { 
-padding: .25em 10px .25em 5px; }
+th, td, caption { padding: .25em 10px .25em 5px; }
 
-tfoot { 
-font-style: italic; }
+tfoot { font-style: italic; }
 
-caption { 
-background-color: transparent; }
+caption { background-color: transparent; }
 
 /* 7.FORMS (See css/mylibs/forms.css) */
 
@@ -256,120 +200,64 @@ background-color: transparent; }
 
 /* 14.GLOBAL OBJECTS */
 
-.clearfix { 
-zoom: 1; }
+.clearfix { zoom: 1; }
 
 .clearfix:before, 
-.clearfix:after { 
-content: "\0020"; 
-display: block; 
-height: 0; 
-overflow: hidden; }
+.clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
 
-.clearfix:after { 
-clear: both; }
+.clearfix:after { clear: both; }
 
 /* 15.VENDOR-SPECIFIC */
 
-body {
--webkit-text-size-adjust: 100%; 
--ms-text-size-adjust: 100%; }
+body { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
-a:link { 
--webkit-tap-highlight-color: rgb(52,158,219); }
+a:link { -webkit-tap-highlight-color: rgb(52,158,219); }
 
-::-webkit-selection { 
-background: rgb(23,119,175); 
-color: rgb(250,250,250); 
-text-shadow: none; }
+::-webkit-selection { background: rgb(23,119,175); color: rgb(250,250,250); text-shadow: none; }
 
-::-moz-selection { 
-background: rgb(23,119,175); 
-color: rgb(250,250,250); 
-text-shadow: none; }
+::-moz-selection { background: rgb(23,119,175); color: rgb(250,250,250); text-shadow: none; }
 
-::selection { 
-background: rgb(23,119,175); 
-color: rgb(250,250,250); 
-text-shadow: none; }
+::selection { background: rgb(23,119,175); color: rgb(250,250,250); text-shadow: none; }
 
-/* input[type=search] {
--webkit-appearance: none; }
+/* input[type=search] { -webkit-appearance: none; }
 
 input[type="search"]::-webkit-search-decoration, 
-input[type="search"]::-webkit-search-cancel-button {
-display: none; } */
+input[type="search"]::-webkit-search-cancel-button { display: none; } */
 
-::-webkit-input-placeholder {
-padding: 10px;
-font-size: .875em; 
-line-height: 1.4; }
+::-webkit-input-placeholder { padding: 10px; font-size: .875em; line-height: 1.4; }
 
-input:-moz-placeholder { 
-padding: 10px;
-font-size: .875em; 
-line-height: 1.4; }
+input:-moz-placeholder { padding: 10px; font-size: .875em; line-height: 1.4; }
 
 .ie7 img,
-.iem7 img { 
--ms-interpolation-mode: bicubic; }
+.iem7 img { -ms-interpolation-mode: bicubic; }
 
 div,
 input,
-textarea  { 
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
--o-box-sizing: border-box;
-box-sizing: border-box; }
+textarea { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
 
 /* Non-semantic helper classes */
 
 /* Image replacement */
-.ir { 
-display: block; 
-text-indent: -999em; 
-overflow: hidden; 
-background-repeat: no-repeat; 
-text-align: left; 
-direction: ltr; }
+.ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
 
 /* Hide for screenreaders and visual browsers */
-.hidden { 
-display: none; 
-visibility: hidden; }
+.hidden { display: none; visibility: hidden; }
 
 /* Hide visually */
-.visuallyhidden { 
-position: absolute;
-clip: rect(0 0 0 0); 
-overflow: hidden;
-margin: -1px;
-padding: 0;
-height: 1px;      
-width: 1px;
-border: 0; }
+.visuallyhidden { position: absolute; clip: rect(0 0 0 0); overflow: hidden; margin: -1px; padding: 0; height: 1px; width: 1px; border: 0; }
 
 /* Allow an element to be focusable via keyboard  */
 .visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus { 
-position: static;
-clip: auto; 
-overflow: visible;
-height: auto; 
-margin: 0;   
-width: auto; }
+.visuallyhidden.focusable:focus { position: static; clip: auto; overflow: visible; height: auto; margin: 0; width: auto; }
 
 /* Hide but maintain layout */
-.invisible { 
-visibility: hidden; }
+.invisible { visibility: hidden; }
 
 /* 16.TEMPLATE SPECIFICS */
 
-#goog-fixurl ul  {
-list-style-type: none; }
+#goog-fixurl ul { list-style-type: none; }
 
-#goog-fixurl input  {
-margin-bottom: 1.5em; }
+#goog-fixurl input { margin-bottom: 1.5em; }
 
 /* 17.MODERNIZR */
 
@@ -377,46 +265,28 @@ margin-bottom: 1.5em; }
 
 /*Print __________________________________________________________________________________________________________ */
 @media print {
-* { 
-background: transparent !important; 
-color: black !important; 
-text-shadow: none !important; 
-filter: none !important;
--ms-filter: none !important; } 
+* { background: transparent !important; color: black !important; text-shadow: none !important; filter: none !important; -ms-filter: none !important; } 
 
-a, a:visited { 
-color: #444 !important; 
-text-decoration: underline; }
+a, a:visited { color: #444 !important; text-decoration: underline; }
 
-a[href]:after { 
-content: " (" attr(href) ")"; }
+a[href]:after { content: " (" attr(href) ")"; }
 
-abbr[title]:after { 
-content: " (" attr(title) ")"; }
+abbr[title]:after { content: " (" attr(title) ")"; }
 
 a[href^="javascript:"]:after, 
-a[href^="#"]:after { 
-content: ""; }
+a[href^="#"]:after { content: ""; }
   
-pre, blockquote { 
-border: 1px solid #999; 
-page-break-inside: avoid; }
+pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
 
-thead { 
-display: table-header-group; }
+thead { display: table-header-group; }
 
-tr, img { 
-page-break-inside: avoid; }
+tr, img { page-break-inside: avoid; }
 
-@page { 
-margin: .5cm; }
+@page { margin: .5cm; }
 
-p, h2, h3 { 
-orphans: 3; 
-widows: 3; }
+p, h2, h3 { orphans: 3; widows: 3; }
 
-h2, h3 { 
-page-break-after: avoid; }
+h2, h3 { page-break-after: avoid; }
 }/*/mediaquery*/
 
 /*480px __________________________________________________________________________________________________________ */
@@ -425,8 +295,8 @@ page-break-after: avoid; }
 /* 1.ROOT */
 body { font-size: 1.05em; }
 /* 2.HEADINGS */
-h1 { margin-top: 0.5em; text-align: left; margin-bottom: 0; }
-h1:before { float: right; font-size: 2em; width: 130px; background-size: 60%; background-position: top center; position: relative; top: 0em; text-align: right; margin-bottom: -0.5em; }
+h1 { margin-top: 0.5em; text-align: left; margin-bottom: 0; font-size: 3.3em; }
+h1:before { float: right; font-size: 2em; width: 78px; background-size: 78px; background-position: top center; position: relative; top: 0em; text-align: right; margin-bottom: -0.5em; }
 h2 { text-align: left; }
 /* 3.TYPOGRAPHY */
 /* 4.LINKS */
@@ -436,6 +306,10 @@ h2 { text-align: left; }
 /* 8.BANNER */
 /* 9.NAVIGATION */
 /* 10.CONTENT */
+/* #experience h4 { float: left; margin-top: 0; }
+#experience li { margin-top: 2.2em; }
+#experience .period { clear: none; text-align: right; position: relative; top: 0.1em; }
+#experience p { clear: both; } */
 /* 11.MAIN */
 /* 12.COMPLIMENTARY */
 /* 13.CONTENTINFO */
@@ -446,6 +320,35 @@ h2 { text-align: left; }
 
 }/*/mediaquery*/
 
+/*480px __________________________________________________________________________________________________________ */
+@media only screen and (min-width: 540px) {
+
+  /* 1.ROOT */
+  /* 2.HEADINGS */
+  /* 3.TYPOGRAPHY */
+  /* 4.LINKS */
+  /* 5.FIGURES & IMAGES */
+  /* 6.TABLES */
+  /* 7.FORMS */
+  /* 8.BANNER */
+  /* 9.NAVIGATION */
+  /* 10.CONTENT */
+  #profile    { float: left;  width: 63%; }
+  #experience { float: left;  width: 63%; }
+  #skills     { float: right; width: 30%; margin-left: 7%; }
+  #portfolio  { float: left;  width: 63%;}
+  #interests  { float: right; width: 30%; margin-left: 7%; }
+  #contact    { float: right; width: 30%; margin-left: 7%; }
+  /* 11.MAIN */
+  /* 12.COMPLIMENTARY */
+  /* 13.CONTENTINFO */
+  /* 14.GLOBAL OBJECTS */
+  /* 15.VENDOR-SPECIFIC */
+  /* 16.TEMPLATE SPECIFICS */
+  /* 17.MODERNIZR */
+
+}/*/mediaquery*/
+
 /*768px __________________________________________________________________________________________________________ */
 @media only screen and (min-width: 768px) {
 
@@ -453,7 +356,7 @@ h2 { text-align: left; }
 body { font-size: 1.1em; }
 /* 2.HEADINGS */
 h1 { font-size: 5em; margin-bottom: 0em; }
-h1:before { background-size: 100%; background-position: top center; position: relative; top: 0em; }
+h1:before { width: 130px; background-size: 130px; background-position: top center; position: relative; top: 0em; }
 h2 { font-size: 2em; }
 /* 3.TYPOGRAPHY */
 /* 4.LINKS */
@@ -463,10 +366,6 @@ h2 { font-size: 2em; }
 /* 8.BANNER */
 /* 9.NAVIGATION */
 /* 10.CONTENT */
-#experience { float: left;  width: 63%; }
-#skills     { float: right; width: 30%; margin-left: 7%; }
-#portfolio  { float: left;  width: 63%;}
-#interests  { float: right; width: 30%; margin-left: 7%; }
 /* 11.MAIN */
 /* 12.COMPLIMENTARY */
 /* 13.CONTENTINFO */
@@ -481,7 +380,7 @@ h2 { font-size: 2em; }
 @media only screen and (min-width: 992px) {
 
 /* 1.ROOT */
-#page { width: 890px; }
+.container { width: 890px; }
 /* 2.HEADINGS */
 /* 3.TYPOGRAPHY */
 /* 4.LINKS */
@@ -529,8 +428,9 @@ h2 { font-size: 2em; }
 
 /* 1.ROOT */
 /* 2.HEADINGS */
+h1:before { background-image: url(../img/h/danbarberlogo.png); }
 /* 3.TYPOGRAPHY */
-h1:before { background-image: url(../img/h/danbarberlogo.png); }/* 4.LINKS */
+/* 4.LINKS */
 /* 5.FIGURES & IMAGES */
 /* 6.TABLES */
 /* 7.FORMS */
