@@ -64,7 +64,7 @@ cursor: help; }
 html { overflow-y: scroll; background: #F9F5EB }
 
 body { margin: 0 auto; padding: 0 0; font: 100%/1.4 "museo-sans-1","museo-sans-2", sans-serif;
-       font-weight: 100; color: rgb(40,40,40); background-color: transparent; }
+       font-weight: 100; color: rgb(30,40,50); background-color: transparent; }
 
 .container { margin: 0 auto; padding: 0 0; width: 90% /* 252px */; }
 
@@ -76,7 +76,7 @@ h3,
 h4, 
 h5, 
 h6 { font-family: "museo-slab-1","museo-slab-2", "Helvetica Neue", Helvetica, Arial, serif; font-weight: black;
-     text-shadow: 1px 1px 1px white;}
+     text-shadow: 1px 1px 1px white; text-rendering: optimizeLegibility; }
 
 h1 { margin-top: 0; margin-bottom: .1em; font-size: 3em; /* 48 / 16 = 3 */ line-height: 1.2; font-weight: 900; text-align: center; width: 100%; }
 h1:before { content: ''; display: block; height: 130px; font-size: 3em; margin-top: 0; text-align: center; 
