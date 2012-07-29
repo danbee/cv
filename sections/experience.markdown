@@ -1,16 +1,16 @@
 ### Experience
 
-#### [Pixelhum](http://pixelhum.com)
-
-Aug 2010 – Present
-
-Pixelhum is my own freelance/contract business. I build custom web applications for clients using PHP and Ruby on Rails.
-
 #### [WebBased Ltd](http://www.webbased.co.uk/webbased)
 
 Dec 2011 – Present
 
 Continued development of a CRM product built using Rails 2.3. Moved version control from SVN to git and brought the Rspec test suite up to date.
+
+#### [Pixelhum](http://pixelhum.com)
+
+Aug 2010 – Present
+
+Pixelhum is my own freelance/contract business. I build custom web applications for clients using PHP and Ruby on Rails.
 
 #### [Abiquo](http://www.abiquo.com)
 
