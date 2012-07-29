@@ -13,5 +13,5 @@ $ ->
   offset = 0
   for colour in colours
     context.fillStyle = colour
-    context.fillRect(offset, 0, 48, 12)
-    offset += 48
+    context.fillRect(offset, 0, 72, 12)
+    offset += 72
