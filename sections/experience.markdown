@@ -4,25 +4,25 @@
 
 Dec 2011 – Present
 
-Continued development of a CRM product built using Rails 2.3. Moved version control from SVN to git and brought the Rspec test suite up to date.
+Continued development of a CRM product built using Rails 2.3. I moved version control from SVN to git and brought the Rspec test suite up to date.
 
 #### [Pixelhum](http://pixelhum.com)
 
 Aug 2010 – Present
 
-Pixelhum is my own freelance/contract business. I build custom web applications for clients using PHP and Ruby on Rails.
+Pixelhum is my own freelance/contract business. I design and build web applications for clients using Ruby on Rails.
 
 #### [Abiquo](http://www.abiquo.com)
 
 June 2010 – Oct 2011
 
-Updating and maintaining Abiquo’s websites, written in both PHP and Ruby on Rails. This includes the virtual image exchange site Thunderflash (thunderflash.com) which I rebuilt on Rails 3.
+Updated and maintained Abiquo’s websites, written in both PHP and Ruby on Rails. This includes the virtual image exchange site Thunderflash (thunderflash.com) which I rebuilt on Rails 3.
 
 #### [Deep Blue Sound](http://dbsmusic.co.uk)
 
 Aug 2008 – June 2010
 
-Administering and augmenting the existing web systems including Moodle, SugarCRM and others. Deputising for the System Administrator.
+Administered and augmented the existing web systems including Moodle, SugarCRM and others. Deputised for the System Administrator.
 
 #### [Footwork Solutions](http://footworksolutions.co.uk)
 

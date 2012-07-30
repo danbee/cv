@@ -9,7 +9,7 @@ if navigator.userAgent.match(/iPhone/i) or navigator.userAgent.match(/iPad/i)
 $ ->
   canvas = document.getElementById("colours")
   context = canvas.getContext("2d")
-  colours = ['#FF5579', '#8ED600', '#00BAEB']
+  colours = ['#FF6205', '#8ED600', '#00BAEB']
   offset = 0
   for colour in colours
     context.fillStyle = colour
