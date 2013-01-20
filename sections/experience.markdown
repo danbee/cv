@@ -4,17 +4,17 @@
 
 Nov 2012 &mdash; Present
 
-#### [WebBased Ltd](http://www.webbased.co.uk/webbased)
-
-Dec 2011 &mdash; Nov 2012
-
-Continued development of a CRM product built using Rails 2.3. I moved version control from SVN to git and brought the Rspec test suite up to date.
-
 #### [Pixelhum](http://pixelhum.com)
 
 Aug 2010 &mdash; Present
 
 Pixelhum is my own freelance/contract business. I design and build web applications for clients using Ruby on Rails.
+
+#### [WebBased Ltd](http://www.webbased.co.uk/webbased)
+
+Dec 2011 &mdash; Nov 2012
+
+Continued development of a CRM product built using Rails 2.3. I moved version control from SVN to git and brought the Rspec test suite up to date.
 
 #### [Abiquo](http://www.abiquo.com)
 
