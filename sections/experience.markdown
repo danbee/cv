@@ -1,8 +1,12 @@
 ### Experience
 
+#### [New Bamboo](http://new-bamboo.co.uk)
+
+Nov 2012 &mdash; Present
+
 #### [WebBased Ltd](http://www.webbased.co.uk/webbased)
 
-Dec 2011 &mdash; Present
+Dec 2011 &mdash; Nov 2012
 
 Continued development of a CRM product built using Rails 2.3. I moved version control from SVN to git and brought the Rspec test suite up to date.
 
