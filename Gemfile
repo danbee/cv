@@ -1,5 +1,7 @@
 source "http://rubygems.org"
 
+gem "rake"
+
 gem "stasis"
 gem "therubyracer"
 gem "hpricot"
