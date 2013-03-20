@@ -13,6 +13,7 @@
 
   $(function() {
     var canvas, colour, colours, context, offset, _i, _len, _results;
+
     canvas = document.getElementById("colours");
     context = canvas.getContext("2d");
     colours = ['#FF6205', '#8ED600', '#00BAEB'];
