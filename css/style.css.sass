@@ -29,6 +29,8 @@
  *
  * COLOURS
 
+@import "iconfont"
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
   margin: 0
   padding: 0
@@ -96,14 +98,10 @@ h1
   text-align: center
   width: 100%
   &:before
-    content: ''
     display: block
-    height: 130px
-    font-size: 3em
+    font-size: 1.5em
     margin-top: 0
     text-align: center
-    background: url(../img/l/danbarberlogo.png) center center no-repeat
-    background-size: 95px
 
 /* Hide the logomark in ie7/8 as it just doesn't work correctly. It's not essential.
 
@@ -468,7 +466,7 @@ div, input, textarea
     font-size: 3.3em
     &:before
       float: right
-      font-size: 2em
+      font-size: 1.5em
       width: 78px
       background-size: 78px
       background-position: top center
@@ -575,7 +573,7 @@ div, input, textarea
 @media only screen and (min-width: 992px)
   /*  1.ROOT
   .container
-    width: 890px
+    max-width: 890px
   /*  2.HEADINGS
   /*  3.TYPOGRAPHY
   /*  4.LINKS
