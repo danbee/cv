@@ -659,9 +659,6 @@ div, input, textarea {
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
   /*  1.ROOT */
   /*  2.HEADINGS */
-  h1:before {
-    background-image: url(../img/h/danbarberlogo.png); }
-
   /*  3.TYPOGRAPHY */
   /*  4.LINKS */
   /*  5.FIGURES & IMAGES */
