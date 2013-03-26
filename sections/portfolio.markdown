@@ -8,11 +8,11 @@ I built a complete online shop system for a local music shop using Ruby on Rails
 
 Web based MPD client. Design and execution. Built using PHP and jQuery and uses mpd.class.php to connect to the MPD server.
 
-#### [Footwork Solutions](http://footworksolutions.co.uk)
+#### [Footwork Solutions](http://pixelhum.com/portfolio/footwork/)
 
 Company logo and site design. I built the HTML for the Drupal template.
 
-#### [Halo](http://footworksolutions.co.uk/?q=halo)
+#### [Halo](http://www.footworksolutions.co.uk)
 
 Hosted care co-ordination system for drug treatment agencies. Design, initial implementation and ongoing development of key modules.
 
