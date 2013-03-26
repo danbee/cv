@@ -28,6 +28,63 @@
  * 17.MODERNIZR
  *
  * COLOURS */
+@font-face {
+  font-family: 'icomoon';
+  src: url("/fonts/icomoon.eot");
+  src: url("/fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("/fonts/icomoon.woff") format("woff"), url("/fonts/icomoon.ttf") format("truetype"), url("/fonts/icomoon.svg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+  font-family: 'icomoon';
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased; }
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+  Instead of a list of all class selectors,
+  you can use the generic selector below, but it's slower:
+*/
+[class*="icon-"]:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased; }
+
+.icon-logo:before {
+  content: "\e000"; }
+
+.icon-mail:before {
+  content: "\e001"; }
+
+.icon-earth:before {
+  content: "\e002"; }
+
+.icon-phone:before {
+  content: "\e003"; }
+
+.icon-github:before {
+  content: "\e004"; }
+
+.icon-twitter:before {
+  content: "\e006"; }
+
+.icon-apple:before {
+  content: "\e007"; }
+
+.icon-skype:before {
+  content: "\e005"; }
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -93,14 +150,11 @@ h1 {
   text-align: center;
   width: 100%; }
   h1:before {
-    content: "";
     display: block;
-    height: 130px;
-    font-size: 3em;
-    margin-top: 0;
-    text-align: center;
-    background: url(../img/l/danbarberlogo.png) center center no-repeat;
-    background-size: 95px; }
+    font-size: 1.5em;
+    margin-top: 0.3em;
+    margin-bottom: 0.1em;
+    text-align: center; }
 
 /* Hide the logomark in ie7/8 as it just doesn't work correctly. It's not essential. */
 .ie8 h1:before, .ie7 h1:before {
@@ -437,8 +491,8 @@ div, input, textarea {
   h2, h3 {
     page-break-after: avoid; } }
 /*/mediaquery */
-/*480px __________________________________________________________________________________________________________ */
-@media only screen and (min-width: 480px) {
+/*500px __________________________________________________________________________________________________________ */
+@media only screen and (min-width: 500px) {
   /*  1.ROOT */
   body {
     font-size: 1.05em; }
@@ -451,13 +505,14 @@ div, input, textarea {
     font-size: 3.3em; }
     h1:before {
       float: right;
-      font-size: 2em;
+      font-size: 1.5em;
       width: 78px;
       background-size: 78px;
       background-position: top center;
       position: relative;
       top: 0em;
       text-align: right;
+      margin-top: 0;
       margin-bottom: -0.5em; }
 
   h2 {
@@ -561,7 +616,7 @@ div, input, textarea {
 @media only screen and (min-width: 992px) {
   /*  1.ROOT */
   .container {
-    width: 890px; }
+    max-width: 890px; }
 
   /*  2.HEADINGS */
   /*  3.TYPOGRAPHY */

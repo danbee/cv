@@ -13,7 +13,7 @@
     <!-- http://t.co/dKP3o1e -->
     <meta content='True' name='HandheldFriendly'>
     <meta content='320' name='MobileOptimized'>
-    <meta content='width=device-width, target-densitydpi=160dpi, initial-scale=1' name='viewport'>
+    <meta content='target-densitydpi=160dpi, initial-scale=1' name='viewport'>
     <!--
       For less capable mobile browsers
       <link rel="stylesheet" media="handheld" href="css/handheld.css?v=1">
@@ -42,7 +42,7 @@
     </div>
     <header class='clearfix' role='banner'>
       <div class='container'>
-        <h1 id='main_heading'>Dan Barber</h1>
+        <h1 class='icon-logo' id='main_heading'>Dan Barber</h1>
         <h2>Web Designer &amp;&nbsp;Developer</h2>
       </div>
     </header>
