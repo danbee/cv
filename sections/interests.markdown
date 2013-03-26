@@ -1,4 +1,4 @@
-#### Other Interests
+### Interests
 
 * Drumming
 * Music
