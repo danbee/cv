@@ -12,14 +12,10 @@ Web based MPD client. Design and execution. Built using PHP and jQuery and uses 
 
 Company logo and site design. I built the HTML for the Drupal template.
 
-#### [Halo](http://www.footworksolutions.co.uk)
-
-Hosted care co-ordination system for drug treatment agencies. Design, initial implementation and ongoing development of key modules.
-
 #### [Dan Barber Photo](http://danbarberphoto.com)
 
 My own photography portfolio site. I designed and implemented the site using Ruby on Rails and jQuery, including backend admin pages.
 
 #### My CV
 
-My CV is a responsive design built using Stasis, HAML, SASS and Markdown that makes extensive use of HTML5, CSS3, typography and web fonts. The source code is available on [Github](https://github.com/danbee/cv).
+My CV is a responsive design built using Middleman, SASS and Markdown that makes extensive use of HTML5, CSS3, typography and web fonts. The source code is available on [Github](https://github.com/danbee/cv).
