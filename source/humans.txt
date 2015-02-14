@@ -11,4 +11,4 @@
 /* SITE */
   Standards: HTML5, CSS3
   Components: Modernizr, jQuery
-  Software: Stasis, HAML, SASS, Vim
+  Software: Middleman, SASS, Vim
