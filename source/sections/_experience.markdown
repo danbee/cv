@@ -1,6 +1,6 @@
 ### Experience
 
-#### [New Bamboo](http://new-bamboo.co.uk)
+#### [New Bamboo](http://www.new-bamboo.co.uk)
 
 Nov 2012 &mdash; Present
 
