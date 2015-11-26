@@ -1,8 +1,10 @@
 ### Experience
 
-#### [New Bamboo](http://www.new-bamboo.co.uk)
+#### <del>[New Bamboo](http://www.new-bamboo.co.uk)</del> [thoughtbot](https://thoughtbot.com)
 
 Nov 2012 &mdash; Present
+
+New Bamboo [became thoughtbot London](https://www.new-bamboo.co.uk/blog/2015/11/24/new-bamboo-joins-thoughtbot/) in November 2015.
 
 #### [Pixelhum](http://pixelhum.com)
 
