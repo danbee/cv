@@ -5,7 +5,6 @@
 * HTML5/CSS3
 * Javascript/jQuery
 * Ruby on Rails
-* PHP
 
 #### Databases
 
@@ -17,6 +16,7 @@
 #### Design
 
 * Photoshop/GIMP
+* Sketch
 * Illustrator
 * InDesign
 * Typography
