@@ -4,6 +4,8 @@
 
 Nov 2012 &mdash; Present
 
+thoughtbot is a software development consultancy with offices in the US, London, and Stockholm. We focus on design and development for web and mobile.
+
 New Bamboo [became thoughtbot London](https://www.new-bamboo.co.uk/blog/2015/11/24/new-bamboo-joins-thoughtbot/) in November 2015.
 
 #### [Pixelhum](http://pixelhum.com)
