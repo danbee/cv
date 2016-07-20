@@ -10,9 +10,9 @@ New Bamboo [became thoughtbot London](https://www.new-bamboo.co.uk/blog/2015/11/
 
 #### [Pixelhum](http://pixelhum.com)
 
-Aug 2010 &mdash; Present
+Aug 2010 &mdash; Apr 2015
 
-Pixelhum is my own freelance/contract business. I design and build web applications for clients using Ruby on Rails.
+Pixelhum was my own freelance/contract business. I designed and built web applications for clients using Ruby on Rails.
 
 #### [WebBased Ltd](http://www.webbased.co.uk/webbased)
 
