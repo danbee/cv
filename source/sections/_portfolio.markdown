@@ -2,32 +2,32 @@
 
 #### [New Bamboo](https://www.new-bamboo.co.uk)
 
-The New Bamboo website was completely redesigned and rebuilt from the ground up in 2015. I managed the project as well as doing most of the coding. I also contributed to the design work.
+The New Bamboo website was completely redesigned and rebuilt from the ground up in 2015. Daniel managed the project, served as the primary developer and also contributed to the design work.
 
 #### [Contagious IO](https://www.contagious.io)
 
-Contagious IO is a curated, collaborative research tool showcasing the world's most innovative marketing, trends and technology. I worked with another developer at New Bamboo to build it, using Ruby on Rails, PostgreSQL and ElasticSearch.
+Contagious IO is a curated, collaborative research tool showcasing the world's most innovative marketing, trends and technology. Daniel worked with another New Bamboo developer to build it, using Ruby on Rails, PostgreSQL and ElasticSearch.
 
 #### [Contagious](https://www.contagious.com)
 
-The Contagious website is built on the Shopify platform. I was part of the team at New Bamboo that built it.
+The Contagious website is built on the Shopify platform. Daniel was part of the New Bamboo team that developed it.
 
 #### [Soundunlimited](http://www.soundunlimited.co.uk)
 
-I built a complete online shop system for a local music shop using Ruby on Rails. Rspec was used for testing.
+Sound Unlimited, a Plymouth-based music shop, hired Daniel to build a complete online shop system. Daniel used Ruby on Rails for the site and Rspec for testing.
 
 #### [NeoMPC](http://pixelhum.com/neompc)
 
-Web based MPD client. Design and execution. Built using PHP and jQuery and uses mpd.class.php to connect to the MPD server.
+NeoMPC is a web based client for controlling an MPD server that was built using PHP and jQuery and uses mpd.class.php to connect to the MPD server. Daniel completed all of the coding, interface design and graphics for this project.
 
 #### [Footwork Solutions](http://pixelhum.com/portfolio/footwork/)
 
-Company logo and site design. I built the HTML for the Drupal template.
+Footwork Solutions are a web development company in Plymouth specialising in large enterprise intranet systems. Daniel designed the company logo and the website and built the template for Drupal.
 
 #### [Dan Barber Photo](http://danbarberphoto.com)
 
-My own photography portfolio site. I designed and implemented the site using Ruby on Rails and jQuery, including backend admin pages.
+Daniel designed and implemented his personal photography site using Ruby on Rails and jQuery, including backend admin pages.
 
-#### My CV
+#### Daniel's CV
 
-My CV is a responsive design built using Middleman, SASS and Markdown that makes extensive use of HTML5, CSS3, typography and web fonts. The source code is available on [Github](https://github.com/danbee/cv).
+Daniel built his CV, a responsive design built using Middleman, SASS and Markdown that makes extensive use of HTML5, CSS3, typography and web fonts. The source code is available on [Github](https://github.com/danbee/cv).
