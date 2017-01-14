@@ -2,9 +2,11 @@
 
 #### Web Technologies
 
-* HTML5/CSS3
-* Javascript/jQuery
+* HTML
+* CSS
 * Ruby on Rails
+* Javascript
+* React/Redux
 
 #### Databases
 
@@ -20,15 +22,3 @@
 * Illustrator
 * InDesign
 * Typography
-
-#### Linux Servers
-
-* Web (Apache)
-* MySQL
-* PostgreSQL
-* DNS
-* Samba
-
-#### Networking
-
-Good knowledge of cabling, routing and protocols.

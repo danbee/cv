@@ -1,5 +1,7 @@
 ### Profile
 
-I am a design literate developer with 18 years of experience building web sites and web applications, from small simple websites and services to large enterprise level systems. I focus on simple, usable interfaces and prefer to work by prototyping ideas.
+Daniel started coding on his Sinclair ZX81 computer in 1985, and started building things for the web in about 1996. Now also literate in design, he focuses mostly on building web applications, from small simple websites and services to large enterprise-level systems. With a preference for simple and usable interfaces, Daniel works best by prototyping ideas.
 
-I am detail orientated and I love working alongside others on interesting projects and ideas. I love learning new techniques and technologies and I love simple, elegant, maintainable code.
+His attention to detail and ability to work at his best when alongside others makes him an ideal member of any team. Eager to learn new techniques and technologies, Daniel loves working on interesting projects and strives for simple, elegant and maintainable code.
+
+Over the past few years, Daniel has become proficient in Scrum, and has been seeking out professional development opportunities to achieve Scrum Master status.
