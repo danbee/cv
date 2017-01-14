@@ -4,7 +4,7 @@
 
 Nov 2012 &mdash; Present
 
-As a developer at thoughtbot, Daniel works directly with the client to ensure optimal client success, which is achieved by working within a pragmatic and well-defined Scrum framework, running User Story Workshops and helping clients to understand the process. Daniel works with the team to plan sprints every week and to run demos to show the progress to date.
+As a developer at thoughtbot, Dan works directly with the client to ensure optimal client success, which is achieved by working within a pragmatic and well-defined Scrum framework, running User Story Workshops and helping clients to understand the process. Dan works with the team to plan sprints every week and to run demos to show the progress to date.
 
 thoughtbot works mostly with Ruby on Rails and delivers high-quality, well tested code.
 
@@ -20,7 +20,7 @@ Launched Pixelhum in 2010, providing freelance and contract-based services to cl
 
 Dec 2011 &mdash; Nov 2012
 
-Continuing the development of a CRM product built using Ruby on Rails 2.3, Daniel migrated version control from SVN to git and brought the Rspec test suite up to date.
+Continuing the development of a CRM product built using Ruby on Rails 2.3, Dan migrated version control from SVN to git and brought the Rspec test suite up to date.
 
 #### [Abiquo](http://web.archive.org/web/20111005142120/http://www.abiquo.com/)
 
