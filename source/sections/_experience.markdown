@@ -4,7 +4,9 @@
 
 Nov 2012 &mdash; Present
 
-thoughtbot is a software development consultancy with offices in the US, London, and Stockholm. We focus on design and development for web and mobile.
+As a developer at thoughtbot I work directly with the client to ensure that they get what they need. This involves working within a pragmatic and well defined Scrum framework, running User Story Workshops and helping clients to understand our process. I work with the team to plan sprints every week and run demos of the work that has been done.
+
+We work mostly with Ruby on Rails and write high quality, well tested code.
 
 New Bamboo [became thoughtbot London](https://www.new-bamboo.co.uk/blog/2015/11/24/new-bamboo-joins-thoughtbot/) in November 2015.
 
