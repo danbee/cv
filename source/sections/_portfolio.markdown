@@ -20,7 +20,7 @@ Sound Unlimited, a Plymouth-based music shop, hired Dan to build a complete onli
 
 NeoMPC is a web based client for controlling an MPD server that was built using PHP and jQuery and uses mpd.class.php to connect to the MPD server. Dan completed all of the coding, interface design and graphics for this project.
 
-#### [Footwork Solutions](http://pixelhum.com/portfolio/footwork/)
+#### [Footwork Solutions](http://web.archive.org/web/20081016050612/http://www.footworksolutions.co.uk/)
 
 Footwork Solutions are a web development company in Plymouth specialising in large enterprise intranet systems. Dan designed the company logo and the website and built the template for Drupal.
 
