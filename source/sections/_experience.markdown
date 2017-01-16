@@ -20,7 +20,7 @@ Launched Pixelhum in 2010, providing freelance and contract-based services to cl
 
 Dec 2011 &mdash; Nov 2012
 
-Continuing the development of a CRM product built using Ruby on Rails 2.3, Dan migrated version control from SVN to git and brought the Rspec test suite up to date.
+Continued the development of a CRM product built using Ruby on Rails 2.3. Migrated version control from SVN to git and brought the Rspec test suite up to date.
 
 #### [Abiquo](http://web.archive.org/web/20111005142120/http://www.abiquo.com/)
 
