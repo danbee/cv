@@ -76,9 +76,14 @@ body {
   background: linear-gradient(to right, rgba(239, 239, 239, 1) 0%, rgba(255, 255, 255, 1) 35%, rgba(255, 255, 255, 1) 65%, rgba(239, 239, 239, 1) 100%);
   color: #262626;
   font-weight: 300;
-  font: 100% / 1.5 "source_sans", sans-serif;
+  font: 100% / 1.5 "Gotham SSm A", "Gotham SSm B", sans-serif;
   margin: 0 auto;
   padding: 0 0;
+}
+
+p,
+li {
+  font-weight: 300;
 }
 
 #stripe {
@@ -102,8 +107,8 @@ body {
 /*  2.HEADINGS */
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "source_sans", "Helvetica Neue", Helvetica, Arial, serif;
-  font-weight: bold;
+  font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, serif;
+  font-weight: 700;
   text-shadow: 1px 1px 1px white;
   text-rendering: optimizeLegibility;
 }
@@ -115,7 +120,7 @@ h1 {
 
   /* 48 / 16 = 3 */
   line-height: 1.2;
-  font-weight: 900;
+  font-weight: 800;
   text-align: center;
   width: 100%;
 
