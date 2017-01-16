@@ -2,7 +2,7 @@
 
 #### [New Bamboo](https://www.new-bamboo.co.uk)
 
-The New Bamboo website was completely redesigned and rebuilt from the ground up in 2015. Dan managed the project, served as the primary developer and also contributed to the design work.
+The New Bamboo website was completely redesigned and rebuilt from the ground up in 2015. Dan managed the project, serving as the product owner. He also served as the primary developer and contributed to the design work.
 
 #### [Contagious IO](https://www.contagious.io)
 
