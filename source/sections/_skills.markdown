@@ -1,24 +1,26 @@
 ### Skills
 
-#### Web Technologies
+#### Front-end web development
 
-* HTML
-* CSS
-* Ruby on Rails
-* Javascript
-* React/Redux
+* I write well structured, semantic HTML
 
-#### Databases
+* I have good knowledge of CSS, including newer CSS 3 features
 
-* SQL
-* PostgreSQL
-* MySQL
-* SQLite3
+* I write unobtrusive Javascript, using either libraries like jQuery or
+  frameworks such as React or VueJS
 
-#### Design
+#### Back-end web development
 
-* Photoshop/GIMP
-* Sketch
-* Illustrator
-* InDesign
-* Typography
+* I write well structured web applications using Ruby on Rails
+
+* I write well thought out REST API's
+
+* I know PostgreSQL inside out and can write good SQL
+
+#### Tools and processes
+
+* I work in agile teams and am a strong proponent of Scrum
+
+* I use Git for version control
+
+* I practice TDD and BDD
