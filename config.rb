@@ -53,7 +53,7 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
-set :markdown, auto_ids: false
+set :markdown, auto_ids: false, smartypants: true
 
 # Build-specific configuration
 configure :build do

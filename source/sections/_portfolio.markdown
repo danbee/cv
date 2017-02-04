@@ -28,6 +28,6 @@ Footwork Solutions are a web development company in Plymouth specialising in lar
 
 Dan designed and implemented his personal photography site using Ruby on Rails and jQuery, including backend admin pages.
 
-#### Dan’s CV
+#### Dan's CV
 
 Dan built his CV, a responsive design using Middleman, SASS and Markdown that makes extensive use of HTML5, CSS3, typography and web fonts. The source code is available on [Github](https://github.com/danbee/cv).
