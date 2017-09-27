@@ -11,6 +11,5 @@ others makes him an ideal member for any team. Eager to learn new techniques
 and technologies, Dan loves working on interesting projects and strives for
 simple, elegant and maintainable code.
 
-Since starting at thoughtbot London in 2012, Dan has become proficient in
-Scrum, and has been seeking professional development opportunities to achieve
-Scrum Master status.
+Since starting at thoughtbot London in 2012, Dan has become proficient in Scrum,
+and is a certified Scrum Master.
