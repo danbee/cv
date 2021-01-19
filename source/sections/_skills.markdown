@@ -19,12 +19,12 @@
 
 * Knows PostgreSQL well and can write good SQL.
 
-* Is familiar with NoSQL databases like Redis and CouchDB and services like
+* Familiar with NoSQL databases like Redis and CouchDB and services like
   ElasticSearch.
 
 #### Mobile development
 
-* Is somewhat familiar with iOS Development and Swift.
+* Familiar with iOS Development and Swift.
 
 #### Tools and processes
 
