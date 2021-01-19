@@ -4,18 +4,23 @@
 
 * Writes well structured, semantic HTML.
 
-* Possesses strong knowledge of CSS, including newer CSS 3 features.
+* Possesses strong knowledge of CSS, including modern CSS features like
+  Flexbox, Grid and custom properties.
 
-* Writes unobtrusive Javascript, using either libraries like jQuery or
-  frameworks such as React or VueJS.
+* Writes unobtrusive Javascript, using frameworks such as Stimulus, React or
+  VueJS.
 
 #### Back-end web development
 
-* Writes well structured web applications using Ruby on Rails.
+* Writes well structured web applications using Ruby on Rails or Elixir and
+  Phoenix.
 
-* Writes well thought out REST API's.
+* Writes well thought out REST and GraphQL API's.
 
 * Knows PostgreSQL well and can write good SQL.
+
+* Is familiar with NoSQL databases like Redis and CouchDB and services like
+  ElasticSearch.
 
 #### Tools and processes
 
