@@ -1,6 +1,6 @@
 ### Portfolio
 
-#### [New Bamboo](https://www.new-bamboo.co.uk)
+#### [New Bamboo](https://legacy.new-bamboo.co.uk)
 
 The New Bamboo website was completely redesigned and rebuilt from the ground up
 in 2015. Dan managed the project, serving as the product owner. He also served
