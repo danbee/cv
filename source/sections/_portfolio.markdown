@@ -18,10 +18,11 @@ ElasticSearch.
 The Contagious website is built on the Shopify platform. Dan was part of the
 New Bamboo team that developed it.
 
-#### [Soundunlimited](http://www.soundunlimited.co.uk)
+#### [Soundunlimited](https://web.archive.org/web/20130310015425/http://www.soundunlimited.co.uk/)
 
 Sound Unlimited, a Plymouth-based music shop, hired Dan to build a complete
 online shop system. Dan used Ruby on Rails for the site and Rspec for testing.
+The site featured an innovative quantity discount system.
 
 #### [NeoMPC](http://pixelhum.com/neompc)
 
