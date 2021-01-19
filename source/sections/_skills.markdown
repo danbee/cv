@@ -22,6 +22,10 @@
 * Is familiar with NoSQL databases like Redis and CouchDB and services like
   ElasticSearch.
 
+#### Mobile development
+
+* Is somewhat familiar with iOS Development and Swift.
+
 #### Tools and processes
 
 * Works in agile teams and is a strong proponent of Scrum.
