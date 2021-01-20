@@ -1,48 +1,23 @@
 ### Portfolio
 
-#### [New Bamboo](https://legacy.new-bamboo.co.uk)
+#### [DanBarber.me](https://danbarber.me)
 
-The New Bamboo website was completely redesigned and rebuilt from the ground up
-in 2015. Dan managed the project, serving as the product owner. He also served
-as the primary developer and contributed to the design work.
-
-#### [Contagious IO](https://www.contagious.io)
-
-Contagious IO is a curated, collaborative research tool showcasing the world's
-most innovative marketing, trends and technology. Dan worked with another New
-Bamboo developer to build it, using Ruby on Rails, PostgreSQL and
-ElasticSearch.
-
-#### [Contagious](https://www.contagious.com)
-
-The Contagious website is built on the Shopify platform. Dan was part of the
-New Bamboo team that developed it.
-
-#### [Soundunlimited](https://web.archive.org/web/20130310015425/http://www.soundunlimited.co.uk/)
-
-Sound Unlimited, a Plymouth-based music shop, hired Dan to build a complete
-online shop system. Dan used Ruby on Rails for the site and Rspec for testing.
-The site featured an innovative quantity discount system.
+My personal blog and photo site is a static site built using Hugo. It makes use
+of SASS and ITCSS (Inverse Triangle CSS) to organise the styles.
 
 #### [NeoMPC](http://pixelhum.com/neompc)
 
 NeoMPC is a web based client for controlling an MPD server that was built using
-PHP and jQuery and uses mpd.class.php to connect to the MPD server. Dan
-completed all of the coding, interface design and graphics for this project.
-
-#### [Footwork Solutions](http://web.archive.org/web/20081016050612/http://www.footworksolutions.co.uk/)
-
-Footwork Solutions are a web development company in Plymouth specialising in
-large enterprise intranet systems. Dan designed the company logo and the
-website and built the template for Drupal.
+PHP and jQuery and uses mpd.class.php to connect to the MPD server. I completed
+all of the coding, interface design and graphics for this project.
 
 #### [Dan Barber Photo](http://danbarberphoto.com)
 
-Dan designed and implemented his personal photography site using Ruby on Rails
-and jQuery, including backend admin pages.
+My personal photography site is built using Ruby on Rails and jQuery, including
+back-end admin pages.
 
 #### Dan's CV
 
-Dan built his CV, a responsive design using Middleman, SASS and Markdown that
-makes extensive use of HTML5, CSS3, typography and web fonts. The source code
-is available on [Github](https://github.com/danbee/cv).
+I built my CV/resume, a responsive design using Middleman, SASS and Markdown
+that makes extensive use of HTML5, CSS3, typography and web fonts. The source
+code is available on [Github](https://github.com/danbee/cv).
