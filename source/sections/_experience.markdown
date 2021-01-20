@@ -48,7 +48,7 @@ clients. Here are some highlights from the projects I worked on:
 
 #### [Abiquo](http://web.archive.org/web/20111005142120/http://www.abiquo.com/)
 
-**Web Developer**: June 2010---Oct 2011
+**Web Developer**: Jun 2010---Oct 2011
 
 * Updated and maintained Abiquo's websites, which were written in both PHP and
   Ruby on Rails.
@@ -59,7 +59,7 @@ clients. Here are some highlights from the projects I worked on:
 
 #### [Deep Blue Sound](http://dbsmusic.co.uk)
 
-**Deputy Sysadmin**: Aug 2008---June 2010
+**Deputy Sysadmin**: Aug 2008---Jun 2010
 
 * Administered and augmented the existing web systems including Moodle, SugarCRM
   and others.
