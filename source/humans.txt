@@ -4,9 +4,9 @@
 
 /* TEAM */
   Designer & Coder: Dan Barber
-  Site: http://danbarber.me
-  Twitter: @danbee
-  Location: UK
+  Site: https://danbarber.me
+  Twitter: @_danbarber
+  Location: US
 
 /* SITE */
   Standards: HTML5, CSS3
