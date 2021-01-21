@@ -544,6 +544,61 @@ div, input, textarea {
     -ms-filter: none !important;
   }
 
+  body {
+    font-size: 58%;
+  }
+
+  h1 {
+    margin-top: 0.5em;
+    text-align: left;
+    margin-bottom: 0;
+    font-size: 3.3em;
+
+    &:before {
+      float: right;
+      font-size: 1.5em;
+      width: 78px;
+      background-size: 78px;
+      background-position: top center;
+      position: relative;
+      top: 0em;
+      text-align: right;
+      margin-top: 0;
+      margin-bottom: -0.5em;
+    }
+  }
+
+  h2 {
+    text-align: left;
+  }
+
+  #stripe {
+    display: none;
+  }
+
+  #profile, #experience {
+    float: left;
+    width: 68%;
+  }
+
+  #skills {
+    float: right;
+    width: 25%;
+    margin-left: 7%;
+  }
+
+  #portfolio {
+    break-before: left;
+    float: left;
+    width: 68%;
+  }
+
+  #interests, #contact {
+    float: right;
+    width: 25%;
+    margin-left: 7%;
+  }
+
   a {
     color: #444 !important;
     text-decoration: underline;
@@ -551,10 +606,6 @@ div, input, textarea {
     &:visited {
       color: #444 !important;
       text-decoration: underline;
-    }
-
-    &[href]:after {
-      content: " (" attr(href) ")";
     }
   }
 

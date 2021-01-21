@@ -29,9 +29,6 @@ clients. Here are some highlights from the projects I worked on:
 
 **Web Designer &amp; Developer**: Aug 2010---Apr 2015
 
-* Launched Pixelhum in 2010, providing freelance and contract-based services to
-  clients.
-
 * Designed and built an E-commerce site for
   [Soundunlimited](https://web.archive.org/web/20130310015425/http://www.soundunlimited.co.uk/),
   a Plymouth-based music shop.
@@ -43,8 +40,6 @@ clients. Here are some highlights from the projects I worked on:
 * Continued the development of a CRM product built using Ruby on Rails 2.3.
 
 * Migrated version control from SVN to git.
-
-* Brought the Rspec test suite up to date.
 
 #### [Abiquo](http://web.archive.org/web/20111005142120/http://www.abiquo.com/)
 
