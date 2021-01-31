@@ -112,8 +112,9 @@ DEPENDENCIES
   bourbon
   middleman
   middleman-livereload
-  tzinfo-data
-  wdm (~> 0.1.0)
 
 RUBY VERSION
-   ruby 2.6.2
+   ruby 2.7.2p137
+
+BUNDLED WITH
+   2.2.7
