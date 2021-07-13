@@ -5,8 +5,8 @@
 Senior Developer: Feb 2021---Jun 2021
 
 As a senior developer at Buoy Software I was responsible for working with the
-product team to maintain and expand the software built to run the Parachute
-blood plasma donation centers.
+product team to maintain and expand the software built to run the
+[Parachute](https://www.joinparachute.com) blood plasma donation centers.
 
 * Maintained and expanded a Ruby on Rails web app designed to manage the
   facilities and donations.
