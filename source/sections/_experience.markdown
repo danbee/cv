@@ -1,8 +1,25 @@
 ### Experience
 
+#### [Buoy Software](https://www.buoysoftware.com)
+
+Senior Developer: Feb 2021---Jun 2021
+
+As a senior developer at Buoy Software I was responsible for working with the
+product team to maintain and expand the software built to run the Parachute
+blood plasma donation centers.
+
+* Maintained and expanded a Ruby on Rails web app designed to manage the
+  facilities and donations.
+
+* Maintained and expanded a React Native mobile app designed to allow donors to
+  book appointments and manage their accounts.
+
+* Maintained a React Native iPad app designed to manage the donor check in
+  process in facilities.
+
 #### [thoughtbot](https://thoughtbot.com) (formerly [New Bamboo](http://www.new-bamboo.co.uk))
 
-**Senior Developer**: Nov 2012---Present
+**Senior Developer**: Nov 2012---Jan 2021
 
 As a senior developer at thoughtbot I was responsible for working directly with
 clients. Here are some highlights from the projects I worked on:
@@ -27,7 +44,7 @@ clients. Here are some highlights from the projects I worked on:
 
 #### [Pixelhum](http://pixelhum.com)
 
-**Web Designer &amp; Developer**: Aug 2010---Apr 2015
+**Web Designer & Developer**: Aug 2010---Apr 2015
 
 * Designed and built an E-commerce site for
   [Soundunlimited](https://web.archive.org/web/20130310015425/http://www.soundunlimited.co.uk/),
