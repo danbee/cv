@@ -2,34 +2,36 @@
 
 #### Front-end web development
 
-* Writes well structured, semantic HTML.
-
-* Possesses strong knowledge of CSS, including modern CSS features like
-  Flexbox, Grid and custom properties.
-
-* Writes unobtrusive Javascript, using frameworks such as Stimulus, React or
-  VueJS.
+* HTML5
+* CSS3
+* Flexbox
+* CSS Grid
+* JavaScript
+* Stimulus
+* React
+* VueJS
 
 #### Back-end web development
 
-* Writes well structured web applications using Ruby on Rails or Elixir and
-  Phoenix.
+* Ruby on Rails
+* Elixir/Phoenix
+* REST
+* GraphQL
+* PostgreSQL
+* MySQL
+* Redis
+* ElasticSearch
 
-* Writes well thought out REST and GraphQL API's.
+#### Mobile/App development
 
-* Knows PostgreSQL well and can write good SQL.
-
-* Familiar with NoSQL databases like Redis and CouchDB and services like
-  ElasticSearch.
-
-#### Mobile development
-
-* Familiar with iOS Development and Swift.
+* iOS
+* macOS
+* Swift
+* React Native
 
 #### Tools and processes
 
-* Works in agile teams and is a strong proponent of Scrum.
-
-* Uses Git for version control.
-
-* Practices TDD and BDD.
+* Agile/Scrum
+* Git
+* TDD
+* BDD

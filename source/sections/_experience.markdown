@@ -4,31 +4,28 @@
 
 Senior Developer: Feb 2021---Jun 2021
 
-As a senior developer at Buoy Software I was responsible for working with the
-product team to maintain and expand the software built to run the
-[Parachute](https://www.joinparachute.com) blood plasma donation centers.
+* Worked with the product team to triage bugs and scope new features for
+  software built to run the [Parachute](https://www.joinparachute.com) blood
+  plasma donation centers.
 
-* Maintained and expanded a Ruby on Rails web app designed to manage the
-  facilities and donations.
+* Created a new feature for the Parachute management app that consolidates all
+  the details of a single donation onto one page. The app uses a Ruby on Rails
+  GraphQL API and a React front-end.
 
-* Maintained and expanded a React Native mobile app designed to allow donors to
-  book appointments and manage their accounts.
-
-* Maintained a React Native iPad app designed to manage the donor check in
-  process in facilities.
+* Created a new sign up flow and home screen for the React Native mobile app.
 
 #### [thoughtbot](https://thoughtbot.com) (formerly [New Bamboo](http://www.new-bamboo.co.uk))
 
 **Senior Developer**: Nov 2012---Jan 2021
 
-As a senior developer at thoughtbot I was responsible for working directly with
-clients. Here are some highlights from the projects I worked on:
+During my time at thoughtbot I worked on a large number of projects directly
+with clients. Here are some highlights from the projects I worked on:
 
-* Built a content management and subscription system for a marketing
-  intelligence firm in London using Ruby on Rails and ElasticSearch.
+* Built a CMS and subscription system for a marketing intelligence firm using
+  Ruby on Rails and ElasticSearch.
 
-* Built a form system for a Canadian organisation that funds research in
-  developing countries using a Ruby on Rails back-end and Angular front-end.
+* Built a form system for an organisation that funds research in developing
+  countries using a Ruby on Rails back-end and Angular front-end.
 
 * Built a statistics dashboard for a company that provides cloud based banking
   solutions using React.
@@ -36,11 +33,11 @@ clients. Here are some highlights from the projects I worked on:
 * Worked with a company that provides publishing services to musicians to
   upgrade their website to the latest version of Ruby on Rails.
 
-* Built a full MVP with sign up flow for a UK company offering mail order
+* Built a full MVP with sign up flow for a company offering mail order
   prescription medication using Ruby on Rails.
 
-* Worked with a major health insurance provider in the US to augment their web
-  development team. I worked on their marketing site built using React.
+* Worked with a major health insurance provider to augment their web development
+  team.
 
 #### [Pixelhum](http://pixelhum.com)
 
