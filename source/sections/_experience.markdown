@@ -13,12 +13,15 @@ Senior Developer: Feb 2021---Jun 2021
 
 * Created a new sign up flow and home screen for the React Native mobile app.
 
-#### [thoughtbot](https://thoughtbot.com) (formerly [New Bamboo](http://www.new-bamboo.co.uk))
+#### [thoughtbot](https://thoughtbot.com) (formerly [New Bamboo](http://legacy.new-bamboo.co.uk))
 
 **Senior Developer**: Nov 2012---Jan 2021
 
 During my time at thoughtbot I worked on a large number of projects directly
 with clients. Here are some highlights from the projects I worked on:
+
+* Worked with an external designer to design and build a new website for [New
+  Bamboo](http://legacy.new-bamboo.co.uk).
 
 * Built a CMS and subscription system for a marketing intelligence firm using
   Ruby on Rails and ElasticSearch.
