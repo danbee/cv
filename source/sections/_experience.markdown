@@ -1,12 +1,11 @@
 ### Experience
 
-#### [Buoy Software](https://www.buoysoftware.com)
+#### Buoy Software
 
 Senior Developer: Feb 2021---Jun 2021
 
 * Worked with the product team to triage bugs and scope new features for
-  software built to run the [Parachute](https://www.joinparachute.com) blood
-  plasma donation centers.
+  software built to run the Parachute blood plasma donation centers.
 
 * Created a new feature for the Parachute management app that consolidates all
   the details of a single donation onto one page. The app uses a Ruby on Rails
