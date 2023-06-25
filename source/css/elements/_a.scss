@@ -1,0 +1,38 @@
+a {
+  outline: none;
+  color: hsl(202, 77%, 39%);
+  text-decoration: none;
+
+  &:visited {
+    outline: none;
+    color: hsl(202, 77%, 39%);
+    text-decoration: none;
+  }
+
+  &:hover,
+  &:focus {
+    outline: none;
+    color: hsl(202, 67%, 29%);
+    text-decoration: underline;
+  }
+
+  &:active {
+    outline: none;
+    color: rgb(0, 0, 0);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    color: hsl(202, 67%, 59%);
+
+    &:visited {
+      color: hsl(202, 67%, 59%);
+    }
+
+    &:hover,
+    &:focus {
+      outline: none;
+      color: hsl(202, 67%, 79%);
+      text-decoration: underline;
+    }
+  }
+}

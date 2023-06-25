@@ -1,0 +1,19 @@
+#stripe {
+  background: #262626;
+  height: 12px;
+  line-height: 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  canvas {
+    height: 12px;
+    width: 100%;
+  }
+
+  @media print {
+    display: none;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    background: #121212;
+  }
+}

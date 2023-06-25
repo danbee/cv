@@ -7,12 +7,11 @@ Deploys to Github Pages.
 ### Setup
 
 ```sh
-$ bundle install
-$ bundle exec middleman
+$ bin/setup
 ```
 
-### Deploy
+### Dev Server
 
 ```sh
-$ bundle exec mgd
+$ bin/server
 ```

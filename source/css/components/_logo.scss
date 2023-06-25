@@ -1,0 +1,172 @@
+:root {
+  --color-1: hsl(28, 100%, 48%);
+  --color-2: hsl(41, 100%, 50%);
+  --color-3: hsl(69, 100%, 43%);
+  --color-4: hsl(103, 80%, 46%);
+  --color-5: hsl(200, 100%, 50%);
+  --color-6: hsl(234, 100%, 68%);
+  --color-7: hsl(278, 100%, 63%);
+  --color-8: hsl(335, 85%, 63%);
+
+  @media (prefers-color-scheme: dark) {
+    --color-1: hsl(28, 90%, 48%);
+    --color-2: hsl(41, 90%, 50%);
+    --color-3: hsl(69, 90%, 43%);
+    --color-4: hsl(103, 70%, 46%);
+    --color-5: hsl(200, 90%, 50%);
+    --color-6: hsl(234, 90%, 68%);
+    --color-7: hsl(278, 90%, 60%);
+    --color-8: hsl(335, 80%, 63%);
+  }
+}
+
+.logo__wrapper {
+  width: 10rem;
+  line-height: 0;
+  padding-bottom: 0.5em;
+}
+
+.logo__color {
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-play-state: playing;
+}
+
+.logo__color_1 {
+  animation-name: cycle_color_1;
+}
+.logo__color_2 {
+  animation-name: cycle_color_2;
+}
+.logo__color_3 {
+  animation-name: cycle_color_3;
+}
+.logo__color_4 {
+  animation-name: cycle_color_4;
+}
+
+.logo__color_1 {
+  fill: var(--color-1);
+}
+.logo__color_2 {
+  fill: var(--color-3);
+}
+.logo__color_3 {
+  fill: var(--color-5);
+}
+.logo__color_4 {
+  fill: var(--color-7);
+}
+
+@keyframes cycle_color_1 {
+  0%,
+  100% {
+    fill: var(--color-1);
+  }
+  12.5% {
+    fill: var(--color-2);
+  }
+  25% {
+    fill: var(--color-3);
+  }
+  37.5% {
+    fill: var(--color-4);
+  }
+  50% {
+    fill: var(--color-5);
+  }
+  62.5% {
+    fill: var(--color-6);
+  }
+  75% {
+    fill: var(--color-7);
+  }
+  87.5% {
+    fill: var(--color-8);
+  }
+}
+
+@keyframes cycle_color_2 {
+  0%,
+  100% {
+    fill: var(--color-3);
+  }
+  12.5% {
+    fill: var(--color-4);
+  }
+  25% {
+    fill: var(--color-5);
+  }
+  37.5% {
+    fill: var(--color-6);
+  }
+  50% {
+    fill: var(--color-7);
+  }
+  62.5% {
+    fill: var(--color-8);
+  }
+  75% {
+    fill: var(--color-1);
+  }
+  87.5% {
+    fill: var(--color-2);
+  }
+}
+
+@keyframes cycle_color_3 {
+  0%,
+  100% {
+    fill: var(--color-5);
+  }
+  12.5% {
+    fill: var(--color-6);
+  }
+  25% {
+    fill: var(--color-7);
+  }
+  37.5% {
+    fill: var(--color-8);
+  }
+  50% {
+    fill: var(--color-1);
+  }
+  62.5% {
+    fill: var(--color-2);
+  }
+  75% {
+    fill: var(--color-3);
+  }
+  87.5% {
+    fill: var(--color-4);
+  }
+}
+
+@keyframes cycle_color_4 {
+  0%,
+  100% {
+    fill: var(--color-7);
+  }
+  12.5% {
+    fill: var(--color-8);
+  }
+  25% {
+    fill: var(--color-1);
+  }
+  37.5% {
+    fill: var(--color-2);
+  }
+  50% {
+    fill: var(--color-3);
+  }
+  62.5% {
+    fill: var(--color-4);
+  }
+  75% {
+    fill: var(--color-5);
+  }
+  87.5% {
+    fill: var(--color-6);
+  }
+}

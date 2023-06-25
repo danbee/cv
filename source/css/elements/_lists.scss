@@ -1,0 +1,27 @@
+ul,
+ol {
+  margin: 0 0 0 -24px;
+  padding-left: 24px;
+}
+
+ul {
+  ul {
+    padding-left: 0;
+  }
+
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+li {
+  ul,
+  ol {
+    margin: 0;
+    font-size: 1em;
+
+    /* 16 / 16 = 1 */
+  }
+}

@@ -1,17 +1,17 @@
-<main role="main" class="main-content container">
-  <section id="profile">
+<main role="main" class="content main-content container">
+  <section id="profile" class="content__profile">
     <%= partial "sections/_profile.markdown" %>
   </section>
-  <section id="contact" class="vcard">
+  <section id="contact" class="content__contact" vcard">
     <%= partial "sections/_contact.html.erb" %>
   </section>
-  <section id="skills">
+  <section id="skills" class="content__skills">
     <%= partial "sections/_skills.markdown" %>
   </section>
-  <section id="experience">
+  <section id="experience" class="content__experience">
     <%= partial "sections/_experience.markdown" %>
   </section>
-  <section id="interests">
+  <section id="interests" class="content__interests">
     <%= partial "sections/_interests.markdown" %>
   </section>
 </main>

@@ -1,0 +1,35 @@
+body {
+  background: white;
+  background: linear-gradient(
+    to right,
+    rgba(239, 239, 239, 1) 0%,
+    rgba(255, 255, 255, 1) 35%,
+    rgba(255, 255, 255, 1) 65%,
+    rgba(239, 239, 239, 1) 100%
+  );
+  color: #262626;
+  font-weight: 300;
+  font: 100% / 1.5 "Gotham SSm A", "Gotham SSm B", sans-serif;
+  margin: 0 auto;
+  padding: 0 0;
+
+  @media only screen and (min-width: 540px) {
+    font-size: 1.05em;
+  }
+
+  @media only screen and (min-width: 768px) {
+    font-size: 1.1em;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    background: #262626;
+    background: linear-gradient(
+      to right,
+      rgba(38, 38, 38, 1) 0%,
+      rgba(46, 46, 46, 1) 35%,
+      rgba(46, 46, 46, 1) 65%,
+      rgba(38, 38, 38, 1) 100%
+    );
+    color: #eeeeee;
+  }
+}

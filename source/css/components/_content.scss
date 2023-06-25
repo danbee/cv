@@ -1,0 +1,32 @@
+.content {
+  @media only screen and (min-width: 640px) {
+    display: grid;
+    grid-template-rows: 0fr 0fr 1fr;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+      "profile contact"
+      "experience skills"
+      "experience interests";
+    grid-gap: 0 7%;
+  }
+
+  &__profile {
+    grid-area: profile;
+  }
+
+  &__contact {
+    grid-area: contact;
+  }
+
+  &__skills {
+    grid-area: skills;
+  }
+
+  &__experience {
+    grid-area: experience;
+  }
+
+  &__interests {
+    grid-area: interests;
+  }
+}

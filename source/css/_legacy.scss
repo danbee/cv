@@ -1,0 +1,585 @@
+//  1.ROOT*/
+
+/*  2.HEADINGS */
+
+/*  3.TYPOGRAPHY */
+
+.link {
+  float: right;
+}
+
+.period {
+  font-style: italic;
+}
+
+p,
+ol,
+ul,
+dl,
+address {
+  margin-bottom: 0.75em;
+  font-size: 1em;
+
+  /* 16 / 16 = 1 */
+}
+
+.container > section {
+  border-top: 2px solid #666;
+  padding-top: 1em;
+  margin-bottom: 2em;
+}
+
+#skills,
+#interests {
+  ul,
+  ol {
+    list-style: none;
+  }
+}
+
+dl,
+dd {
+  margin-bottom: 1.5em;
+}
+
+dt {
+  font-weight: normal;
+}
+
+blockquote {
+  margin: 0 0 1.5em -24px;
+  padding-left: 24px;
+  border-left: 1px solid rgb(200, 200, 200);
+  font-style: italic;
+
+  &:before,
+  &:after {
+    content: "";
+    content: none;
+  }
+}
+
+q {
+  &:before,
+  &:after {
+    content: "";
+    content: none;
+  }
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+i,
+em {
+  font-style: italic;
+}
+
+sup,
+sub {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+address {
+  font-style: normal;
+}
+
+pre {
+  margin-bottom: 1.5em;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font: 0.875em "andale mono", "lucida console", monospace;
+  line-height: 1.5;
+}
+
+code {
+  font: 0.875em "andale mono", "lucida console", monospace;
+  line-height: 1.5;
+}
+
+small {
+  font-size: 1em;
+
+  /* 16 / 16 = 1 */
+}
+
+/*  5.FIGURES & IMAGES */
+
+figure {
+  margin-bottom: 1.5em;
+
+  img,
+  object,
+  embed {
+    margin-bottom: 0.75em;
+    max-width: 100%;
+  }
+}
+
+figcaption {
+  display: block;
+  font-weight: normal;
+}
+
+/*  6.TABLES */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 1.4em;
+  width: 100%;
+  font-size: 0.875em;
+
+  /* 14 / 16 = .875 */
+}
+
+th {
+  font-weight: bold;
+  padding: 0.25em 10px 0.25em 5px;
+}
+
+td,
+caption {
+  padding: 0.25em 10px 0.25em 5px;
+}
+
+tfoot {
+  font-style: italic;
+}
+
+caption {
+  background-color: transparent;
+}
+
+/*  7.FORMS (See css/mylibs/forms.css) */
+
+/*  8.BANNER */
+/*  9.NAVIGATION */
+/* 10.CONTENT */
+/* 11.MAIN */
+/* 12.COMPLIMENTARY */
+/* 13.CONTENTINFO */
+
+/* 14.GLOBAL OBJECTS */
+
+.clearfix {
+  zoom: 1;
+
+  &:before {
+    content: " ";
+    display: block;
+    height: 0;
+    overflow: hidden;
+  }
+
+  &:after {
+    content: " ";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    clear: both;
+  }
+}
+
+/* 15.VENDOR-SPECIFIC */
+
+body {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+a:link {
+  -webkit-tap-highlight-color: rgb(52, 158, 219);
+}
+
+::-webkit-selection {
+  background: rgb(23, 119, 175);
+  color: rgb(250, 250, 250);
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background: rgb(23, 119, 175);
+  color: rgb(250, 250, 250);
+  text-shadow: none;
+}
+
+::selection {
+  background: rgb(23, 119, 175);
+  color: rgb(250, 250, 250);
+  text-shadow: none;
+}
+
+::-webkit-input-placeholder {
+  padding: 10px;
+  font-size: 0.875em;
+  line-height: 1.4;
+}
+
+/* input[type=search] { -webkit-appearance: none; }
+ *
+ *input[type="search"]::-webkit-search-decoration, 
+ *input[type="search"]::-webkit-search-cancel-button { display: none; } */
+
+input:-moz-placeholder {
+  padding: 10px;
+  font-size: 0.875em;
+  line-height: 1.4;
+}
+
+.ie7 img,
+.iem7 img {
+  -ms-interpolation-mode: bicubic;
+}
+
+div,
+input,
+textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Non-semantic helper classes */
+
+/* Image replacement */
+
+.ir {
+  display: block;
+  text-indent: -999em;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  text-align: left;
+  direction: ltr;
+}
+
+/* Hide for screenreaders and visual browsers */
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+/* Hide visually */
+
+.visuallyhidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  height: 1px;
+  width: 1px;
+  border: 0;
+
+  &.focusable {
+    &:active,
+    &:focus {
+      position: static;
+      clip: auto;
+      overflow: visible;
+      height: auto;
+      margin: 0;
+      width: auto;
+    }
+  }
+}
+
+/* Allow an element to be focusable via keyboard */
+
+/* Hide but maintain layout */
+
+.invisible {
+  visibility: hidden;
+}
+
+/* 16.TEMPLATE SPECIFICS */
+
+#goog-fixurl {
+  ul {
+    list-style-type: none;
+  }
+
+  input {
+    margin-bottom: 1.5em;
+  }
+}
+
+/* 17.MODERNIZR */
+
+/* MEDIA QUERIES */
+
+/*Print __________________________________________________________________________________________________________ */
+@media print {
+  * {
+    background: transparent !important;
+    color: black !important;
+    text-shadow: none !important;
+    filter: none !important;
+    -ms-filter: none !important;
+  }
+
+  body {
+    font-size: 58%;
+  }
+
+  h2 {
+    text-align: left;
+  }
+
+  #stripe {
+    display: none;
+  }
+
+  #profile,
+  #experience {
+    float: left;
+    width: 68%;
+  }
+
+  #skills {
+    float: right;
+    width: 25%;
+    margin-left: 7%;
+  }
+
+  #portfolio {
+    break-before: left;
+    float: left;
+    width: 68%;
+  }
+
+  #interests,
+  #contact {
+    float: right;
+    width: 25%;
+    margin-left: 7%;
+  }
+
+  a {
+    color: #444 !important;
+    text-decoration: underline;
+
+    &:visited {
+      color: #444 !important;
+      text-decoration: underline;
+    }
+  }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  a {
+    &[href^="javascript:"]:after,
+    &[href^="#"]:after {
+      content: "";
+    }
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  @page {
+    margin: 0.5cm;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+
+/*/mediaquery */
+
+/*500px __________________________________________________________________________________________________________ */
+@media only screen and (min-width: 540px) {
+  /*  3.TYPOGRAPHY */
+  /*  4.LINKS */
+  /*  5.FIGURES & IMAGES */
+  /*  6.TABLES */
+  /*  7.FORMS */
+  /*  8.BANNER */
+  /*  9.NAVIGATION */
+  /* 10.CONTENT */
+  /* #experience h4 { float: left; margin-top: 0; }
+   *#experience li { margin-top: 2.2em; }
+   *#experience .period { clear: none; text-align: right; position: relative; top: 0.1em; }
+   *#experience p { clear: both; } */
+  /* 11.MAIN */
+  /* 12.COMPLIMENTARY */
+  /* 13.CONTENTINFO */
+  /* 14.GLOBAL OBJECTS */
+  /* 15.VENDOR-SPECIFIC */
+  /* 16.TEMPLATE SPECIFICS */
+  /* 17.MODERNIZR */
+}
+
+/*/mediaquery */
+
+/*480px __________________________________________________________________________________________________________ */
+@media only screen and (min-width: 640px) {
+  /*  1.ROOT */
+  /*  2.HEADINGS */
+  /*  3.TYPOGRAPHY */
+  /*  4.LINKS */
+  /*  5.FIGURES & IMAGES */
+  /*  6.TABLES */
+  /*  7.FORMS */
+  /*  8.BANNER */
+  /*  9.NAVIGATION */
+  /* 10.CONTENT */
+  /* 11.MAIN */
+  /* 12.COMPLIMENTARY */
+  /* 13.CONTENTINFO */
+  /* 14.GLOBAL OBJECTS */
+  /* 15.VENDOR-SPECIFIC */
+  /* 16.TEMPLATE SPECIFICS */
+  /* 17.MODERNIZR */
+}
+
+/*/mediaquery */
+
+/*768px __________________________________________________________________________________________________________ */
+@media only screen and (min-width: 768px) {
+  /*  3.TYPOGRAPHY */
+  /*  4.LINKS */
+  /*  5.FIGURES & IMAGES */
+  /*  6.TABLES */
+  /*  7.FORMS */
+  /*  8.BANNER */
+  /*  9.NAVIGATION */
+  /* 10.CONTENT */
+  /* 11.MAIN */
+  /* 12.COMPLIMENTARY */
+  /* 13.CONTENTINFO */
+  /* 14.GLOBAL OBJECTS */
+  /* 15.VENDOR-SPECIFIC */
+  /* 16.TEMPLATE SPECIFICS */
+  /* 17.MODERNIZR */
+}
+
+/*/mediaquery */
+
+/*992px __________________________________________________________________________________________________________ */
+@media only screen and (min-width: 992px) {
+  /*  1.ROOT */
+  .container {
+    max-width: 890px;
+  }
+
+  /*  2.HEADINGS */
+  /*  3.TYPOGRAPHY */
+  /*  4.LINKS */
+  /*  5.FIGURES & IMAGES */
+  /*  6.TABLES */
+  /*  7.FORMS */
+  /*  8.BANNER */
+  /*  9.NAVIGATION */
+  /* 10.CONTENT */
+  /* 11.MAIN */
+  /* 12.COMPLIMENTARY */
+  /* 13.CONTENTINFO */
+  /* 14.GLOBAL OBJECTS */
+  /* 15.VENDOR-SPECIFIC */
+  /* 16.TEMPLATE SPECIFICS */
+  /* 17.MODERNIZR */
+}
+
+/*/mediaquery */
+
+/*1382px __________________________________________________________________________________________________________ */
+@media only screen and (min-width: 1382px) {
+  /*  1.ROOT */
+  /*  2.HEADINGS */
+  /*  3.TYPOGRAPHY */
+  /*  4.LINKS */
+  /*  5.FIGURES & IMAGES */
+  /*  6.TABLES */
+  /*  7.FORMS */
+  /*  8.BANNER */
+  /*  9.NAVIGATION */
+  /* 10.CONTENT */
+  /* 11.MAIN */
+  /* 12.COMPLIMENTARY */
+  /* 13.CONTENTINFO */
+  /* 14.GLOBAL OBJECTS */
+  /* 15.VENDOR-SPECIFIC */
+  /* 16.TEMPLATE SPECIFICS */
+  /* 17.MODERNIZR */
+}
+
+/*/mediaquery */
+
+/*2x __________________________________________________________________________________________________________ */
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-device-pixel-ratio: 2) {
+  /*  1.ROOT */
+  /*  2.HEADINGS */
+  /*  3.TYPOGRAPHY */
+  /*  4.LINKS */
+  /*  5.FIGURES & IMAGES */
+  /*  6.TABLES */
+  /*  7.FORMS */
+  /*  8.BANNER */
+  /*  9.NAVIGATION */
+  /* 10.CONTENT */
+  /* 11.MAIN */
+  /* 12.COMPLIMENTARY */
+  /* 13.CONTENTINFO */
+  /* 14.GLOBAL OBJECTS */
+  /* 15.VENDOR-SPECIFIC */
+  /* 16.TEMPLATE SPECIFICS */
+  /* 17.MODERNIZR */
+}
+
+/*/mediaquery */
+
+/* Sources: 
+ * http://meyerweb.com/eric/tools/css/reset
+ * http://people.opera.com/patrickl/experiments/keyboard/test
+ * http://gist.github.com/413930
+ * http://pathf.com/blogs/2008/05/formatting-quoted-code-in-blog-posts-css21-white-space-pre-wrap
+ * http://sitepoint.com/blogs/2010/08/20/ie-remove-textarea-scrollbars
+ * http://tjkdesign.com/ez-css/css/base.css
+ * http://viget.com/inspire/styling-the-button-element-in-internet-explorer
+ * http://code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing
+ * http://html5doctor.com/html-5-reset-stylesheet/
+ * http://praegnanz.de/weblog/htmlcssjs-kickstart/
+ * http://camendesign.com/design/
+ * http://yui.yahooapis.com/2.8.1/build/base/base.css
+ * http://webaim.org/techniques/css/invisiblecontent/
+ * http://drupal.org/node/897638 */
