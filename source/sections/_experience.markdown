@@ -81,12 +81,3 @@ with clients. Here are some highlights from the projects I worked on:
 - Rebuilt the virtual image exchange site,
   [Thunderflash](http://web.archive.org/web/20110829022630/http://thunderflash.com/),
   using Ruby on Rails 3.
-
-#### [Deep Blue Sound](http://dbsmusic.co.uk)
-
-**Deputy Sysadmin**: Aug 2008---Jun 2010
-
-- Administered and augmented the existing web systems including Moodle, SugarCRM
-  and others.
-
-- Deputised for the System Administrator.
