@@ -2,7 +2,7 @@
 # the following line to use "http://" instead
 source "https://rubygems.org"
 
-ruby "3.2.1"
+ruby "3.3.1"
 
 gem "bourbon"
 gem "middleman"
