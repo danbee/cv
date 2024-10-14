@@ -1,8 +1,20 @@
 ### Experience
 
+#### [Evvnt](https://evvnt.com)
+
+**Senior Developer**: Nov 2023---Oct 2024
+
+- Integrated features from their original application into the application that
+  they inherited through the acquisition of Geotix.
+
+- Lead the transition to a new design language created for us by an external
+  design agency. This included restructuring the CSS of the project and
+  rebuilding parts of the system built with their proprietary UI framework using
+  View Components.
+
 #### [Imagine Learning](https://www.imaginelearning.com) (formerly Learnzillion)
 
-**Senior Developer**: Aug 2021---Present
+**Senior Developer**: Aug 2021---Sept 2023
 
 - Developed and deployed a new annotation feature for lesson plans. Implemented
   a focused selection of drawing tools to teachers to use to annotate lessons.
@@ -42,9 +54,6 @@ with clients. Here are some highlights from the projects I worked on:
 
 - Built a form system for an organisation that funds research in developing
   countries using a Ruby on Rails back-end and AngularJS front-end.
-
-- Built a statistics dashboard for a company that provides cloud based banking
-  solutions using React.
 
 - Worked with a company that provides publishing services to musicians to
   upgrade their website to the latest version of Ruby on Rails.
