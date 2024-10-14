@@ -24,6 +24,10 @@
   width: 10rem;
   line-height: 0;
   padding-bottom: 0.5em;
+
+  @media print {
+    width: 6rem;
+  }
 }
 
 .logo__color {
