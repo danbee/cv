@@ -1,10 +1,20 @@
 ### Profile
 
-I am a passionate and highly experienced software developer with 20+ years of
-experience building software products for the web. I have been programming
-computers since I got my [Sinclair ZX81](https://en.wikipedia.org/wiki/ZX81)
-in 1985 and have been making them do interesting and delightful things since.
+**Experienced Software Developer with a Passion for Building Innovative Web
+Solutions**
 
-I mostly use Ruby on Rails, HTML, CSS, JavaScript (including frameworks like
-React) and PostgreSQL. I believe the best software is well tested and built
-collaboratively and iteratively with continual feedback from the product owner.
+With over 20 years of expertise in software development, I specialize in
+creating high-quality web applications using technologies like Ruby on Rails,
+HTML, CSS, JavaScript (including frameworks like React or VueJS), and
+PostgreSQL. A lifelong programmer since my early days with the Sinclair ZX81, I
+am driven to craft software that is both functional and delightful. My approach
+to software development is rooted in the belief that the best products emerge
+through well-tested code, collaborative teamwork, and an iterative process
+guided by continuous feedback from stakeholders.
+
+Beyond technical expertise, I thrive in fostering cross-functional
+collaboration, translating complex technical challenges into actionable
+solutions, and mentoring teams to adopt best practices. Whether leading a
+project from concept to deployment or contributing as a team member, I am
+dedicated to delivering software that delights users and drives business
+success.
