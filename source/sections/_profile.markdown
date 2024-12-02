@@ -11,10 +11,3 @@ am driven to craft software that is both functional and delightful. My approach
 to software development is rooted in the belief that the best products emerge
 through well-tested code, collaborative teamwork, and an iterative process
 guided by continuous feedback from stakeholders.
-
-Beyond technical expertise, I thrive in fostering cross-functional
-collaboration, translating complex technical challenges into actionable
-solutions, and mentoring teams to adopt best practices. Whether leading a
-project from concept to deployment or contributing as a team member, I am
-dedicated to delivering software that delights users and drives business
-success.
