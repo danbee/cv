@@ -17,7 +17,7 @@
 **Senior Developer**: Aug 2021---Sept 2023
 
 - Developed and deployed a new annotation feature for lesson plans. Implemented
-  a focused selection of drawing tools to teachers to use to annotate lessons.
+  a focused selection of drawing tools for teachers to use to annotate lessons.
   This also uses websockets to broadcast annotations to students.
 
 - Created a self service interface for curriculum team members to be able to
