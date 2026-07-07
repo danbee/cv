@@ -1,6 +1,6 @@
 ### Profile
 
-**Experienced Software Developer with a Passion for Building Innovative Web
+**Experienced Software Developer with a Passion for Building User Focused Web
 Solutions**
 
 With over 25 years of expertise in software development, I specialize in

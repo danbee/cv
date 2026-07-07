@@ -4,10 +4,15 @@
 
 **Senior Software Consultant**: Feb 2025---Present
 
-As a software consultant at Test Double I've so far tackled a healthcare flow
-creation tool in TypeScript, performance tuning for a large Rails app with a
-Flex API, and augmented the development team at a pharmacy start-up serving the
-GLP-1 medication market.
+As a software consultant at Test Double I've worked with a number of clients to
+understand and solve their software needs:
+
+- A healthcare flow creation tool in TypeScript.
+
+- Performance tuning for a large Rails app with a Flex API.
+
+- Augmented the development team at a pharmacy start-up serving the GLP-1
+  medication market, helping to launch a number of new drugs.
 
 #### [Evvnt](https://evvnt.com)
 
